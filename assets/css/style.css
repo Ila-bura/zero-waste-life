@@ -24,8 +24,10 @@ h2 {
 }
 
 #logo {
-    float: left;
+   float: left;
     font-size: 250%;
+    border-style: solid;
+  border-bottom-style: groove;
 }
 
 /* navigation links */
@@ -36,8 +38,25 @@ h2 {
     float: right;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li{
     float: left;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #212529;
+}
+
+.active {
+    border-bottom: 1px solid #212529;
 }
