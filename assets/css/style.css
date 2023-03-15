@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Source+Code+Pro:wght@400&display=swap');
 
 * {
     margin: 0;
-padding: 0;
-border: none;
+    padding: 0;
+    border: none;
 }
 
 
@@ -16,14 +15,29 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Source Code Pro', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #343a40;
 }
 
 #logo {
     float: left;
     font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 130%;
+    letter-spacing: 3px;
+    float: right;
+}
+
+#menu li{
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
 }
