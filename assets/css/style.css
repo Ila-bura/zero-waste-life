@@ -25,10 +25,10 @@ h2 {
 }
 
 #logo {
-   float: left;
+    float: left;
     font-size: 250%;
     border-style: solid;
-  border-bottom-style: groove;
+    border-bottom-style: groove;
 }
 
 /* navigation links */
@@ -39,11 +39,12 @@ h2 {
     float: right;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
-#menu li{
+#menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
@@ -63,7 +64,7 @@ h2 {
 }
 
 
-/* hero video */
+/* background video */
 
 video#bgvideo {
     position: fixed;
@@ -78,7 +79,36 @@ video#bgvideo {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(placeholder.jpg) no-repeat;
+    background: url("assets/images/placeholder.jpg") no-repeat;
     background-size: cover;
-    }
+}
 
+#hook-text {
+    font-size: 145%;
+    font-family: 'Cormorant Garamond', sans-serif;
+    text-align: center;
+    line-height: 30px;
+
+
+    width: 400px;
+    height: 250px;
+    border-radius: 60%;
+
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: -30px;
+    margin: 30px;
+
+    background-color: rgba(174, 174, 142, 0.4);
+    bottom: 580px;
+
+    right: 630px;
+
+    position: absolute;
+
+}
+
+#hook-text,
+#hook-text h2 {
+    color: #212529;
+}
