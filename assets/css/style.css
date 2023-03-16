@@ -84,23 +84,23 @@ video#bgvideo {
 }
 
 #hook-text {
-    font-size: 145%;
+    font-size: 130%;
     font-family: 'Cormorant Garamond', sans-serif;
     text-align: center;
     line-height: 30px;
 
 
-    width: 400px;
+    width: 450px;
     height: 250px;
-    border-radius: 60%;
+    border-radius: 50%;
 
-    padding-top: 80px;
-    padding-right: 20px;
+    padding-top: 55px;
+    padding-right: 10px;
     padding-bottom: -30px;
     margin: 30px;
 
     background-color: rgba(174, 174, 142, 0.4);
-    bottom: 580px;
+    bottom: 530px;
 
     right: 630px;
 
@@ -111,4 +111,7 @@ video#bgvideo {
 #hook-text,
 #hook-text h2 {
     color: #212529;
+}
+
+#hook-text h2 {font-size: 120%;
 }
