@@ -66,6 +66,7 @@ h2 {
 
 /* background video */
 
+
 video#bgvideo {
     position: fixed;
     top: 50%;
@@ -81,6 +82,15 @@ video#bgvideo {
     transform: translateX(-50%) translateY(-50%);
     background: url("assets/images/placeholder.jpg") no-repeat;
     background-size: cover;
+}
+
+#hook-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+
 }
 
 #hook-text {
@@ -104,7 +114,7 @@ video#bgvideo {
 
     right: 630px;
 
-    position: absolute;
+    position: static;
 
 }
 
