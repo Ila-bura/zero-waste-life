@@ -32,6 +32,7 @@ h2 {
     margin-left: 30px;
     margin-top: 30px;
     padding: 2px 10px;
+    text-align: center;
     
 }
 
@@ -112,7 +113,8 @@ video#bgvideo {
 
     background-color: rgba(174, 174, 142, 0.4);
     bottom: 530px;
-    position: absolute;
+   
+    float: right;
 }
 
 #hook-text,
@@ -127,6 +129,14 @@ video#bgvideo {
 
 #tips_tricks {
     height: 400px;
+    
     text-align: center;
+    font-size: 150%;
+    line-height: 50px; 
+    background-color: rgba(174, 174, 142, 0.4);
+  
+  
+    
 
 }
+
