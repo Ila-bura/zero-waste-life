@@ -99,19 +99,17 @@ video#bgvideo {
 }
 
 #hook-text {
-    font-size: 120%;
     font-family: 'Source Code Pro', sans-serif;
     text-align: center;
     line-height: 30px;
     width: 460px;
-    height: 200px;
+    height: 190px;
     
     padding: 20px;
-    margin: 30px;
+    margin: 50px;
+    border-style: solid;
     border-radius: 50%;
-
-
-    background-color: rgba(174, 174, 142, 0.4);
+    
     bottom: 530px;
    
     float: right;
@@ -120,23 +118,25 @@ video#bgvideo {
 #hook-text,
 #hook-text h2 {
     color: #212529;
+    
 }
 
-#hook-text h2 {font-size: 120%;
+#hook-text h2 {
+    font-size: 170%;
 }
 
 /* tips and tricks section */
 
 #tips_tricks {
     height: 400px;
-    
+padding: 20px;
     text-align: center;
     font-size: 150%;
     line-height: 50px; 
     background-color: rgba(174, 174, 142, 0.4);
-  
-  
     
-
 }
 
+.nobull {
+    list-style-type: none;
+}
