@@ -92,10 +92,9 @@ video#bgvideo {
 #hook-outer {
     height: 300px;
     width: 100%;
-    overflow: hidden;
-    margin-top: 30px;
-    
-    
+    overflow: hidden; 
+   
+   
 }
 
 #hook-text {
@@ -107,11 +106,9 @@ video#bgvideo {
     
     padding: 20px;
     margin: 50px;
-    border-style: solid;
+    border: 2px solid;
     border-radius: 50%;
-    
     bottom: 530px;
-   
     float: right;
 }
 
@@ -129,14 +126,17 @@ video#bgvideo {
 
 #tips_tricks {
     height: 400px;
+    
 padding: 20px;
     text-align: center;
     font-size: 150%;
     line-height: 50px; 
     background-color: rgba(174, 174, 142, 0.4);
+    margin: 0 auto;
     
 }
 
-.nobull {
+#nobull {
     list-style-type: none;
 }
+
