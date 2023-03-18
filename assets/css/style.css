@@ -31,8 +31,11 @@ h1, h2  {
     padding: 3px 20px;
     text-align: center;
     color: #343a40;
-    height: 120px;
+  
     line-height: 55px;
+    width: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
     
 }
 
