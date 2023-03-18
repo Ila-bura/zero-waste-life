@@ -22,6 +22,8 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #343a40;
+   
+    
 }
 
 #logo {
@@ -109,8 +111,8 @@ video#bgvideo {
     font-family: 'Source Code Pro', sans-serif;
     text-align: center;
     line-height: 30px;
-
     padding: 20px;
+ 
     margin: 50px;
     border: 2px solid;
     border-radius: 50%;
@@ -118,9 +120,6 @@ video#bgvideo {
     float: right;
     width: -moz-fit-content;
     width: fit-content;
-
-
-
 }
 
 #hook-text,
@@ -137,12 +136,11 @@ video#bgvideo {
 
 #tips_tricks {
     height: 400px;
-
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     font-size: larger;
     line-height: 50px;
-    background-color: rgba(174, 174, 142, 0.4);
+    background-color: rgba(174, 174, 142, 0.5);
     margin: 0 auto;
     display: block;
 
@@ -154,12 +152,12 @@ video#bgvideo {
 
 /* footer */
 footer {
-    height: 100px;
+    height: 130px;
     text-align: center;
 }
 
 .social-media {
-    margin: 20px;
+    margin: 10px;
 }
 
 .social-media > li {
@@ -172,3 +170,4 @@ footer {
     padding: 20px;
     color: #3a3a3a;
 }
+
