@@ -154,11 +154,11 @@ video#bgvideo {
 
 /* footer */
 footer {
-    height: 150px;
+    height: 100px;
+    text-align: center;
 }
 
 .social-media {
-    text-align: center;
     margin: 20px;
 }
 
