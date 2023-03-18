@@ -16,7 +16,8 @@ body {
 /* headings and logo */
 
 
-h1, h2  {
+h1,
+h2 {
     font-family: 'Cormorant Garamond', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -25,18 +26,18 @@ h1, h2  {
 
 #logo {
     float: left;
-   border-style: solid;
+    border-style: solid;
     margin-left: 30px;
     margin-top: 20px;
     padding: 3px 20px;
     text-align: center;
     color: #343a40;
-  
+
     line-height: 55px;
     width: -moz-fit-content;
-  width: fit-content;
-  height: fit-content;
-    
+    width: fit-content;
+    height: fit-content;
+
 }
 
 hr {
@@ -100,7 +101,7 @@ video#bgvideo {
 #hook-outer {
     height: 250px;
     width: 100%;
-    overflow: hidden;  
+    overflow: hidden;
 
 }
 
@@ -108,7 +109,7 @@ video#bgvideo {
     font-family: 'Source Code Pro', sans-serif;
     text-align: center;
     line-height: 30px;
-    
+
     padding: 20px;
     margin: 50px;
     border: 2px solid;
@@ -116,16 +117,16 @@ video#bgvideo {
     bottom: 530px;
     float: right;
     width: -moz-fit-content;
-  width: fit-content;
-    
-  
-  
+    width: fit-content;
+
+
+
 }
 
 #hook-text,
 #hook-text h2 {
     color: #212529;
-    
+
 }
 
 #hook-text h2 {
@@ -136,17 +137,38 @@ video#bgvideo {
 
 #tips_tricks {
     height: 400px;
-    
-padding: 20px;
+
+    padding: 20px;
     text-align: center;
-  font-size: larger;
-    line-height: 50px; 
+    font-size: larger;
+    line-height: 50px;
     background-color: rgba(174, 174, 142, 0.4);
     margin: 0 auto;
-    
+    display: block;
+
 }
 
 #nobull {
     list-style-type: none;
 }
 
+/* footer */
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1px;
+    padding: 20px;
+    color: #3a3a3a;
+}
