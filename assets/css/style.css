@@ -95,19 +95,16 @@ video#bgvideo {
 }
 
 #hook-outer {
-    height: 300px;
+    height: 250px;
     width: 100%;
-    overflow: hidden; 
-   
-   
+    overflow: hidden;  
+
 }
 
 #hook-text {
     font-family: 'Source Code Pro', sans-serif;
     text-align: center;
     line-height: 30px;
-    width: 460px;
-    height: 190px;
     
     padding: 20px;
     margin: 50px;
@@ -115,6 +112,11 @@ video#bgvideo {
     border-radius: 50%;
     bottom: 530px;
     float: right;
+    width: -moz-fit-content;
+  width: fit-content;
+    
+  
+  
 }
 
 #hook-text,
