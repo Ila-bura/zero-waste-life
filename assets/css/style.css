@@ -166,8 +166,6 @@ video#bgvideo {
     
     
 }
-
-
  
 #left-ingredients {
     width: 33%;
@@ -183,10 +181,27 @@ video#bgvideo {
 #center-picture {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+   
+    
 }
 
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
+#circle-cover-bg { 
+    background: url(/assets/images/fritters.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+
+}
 /* footer */
     
 footer {
@@ -209,4 +224,5 @@ footer {
     padding: 20px;
     color: #3a3a3a;
 }
+
 
