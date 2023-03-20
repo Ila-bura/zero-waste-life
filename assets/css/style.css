@@ -150,6 +150,43 @@ video#bgvideo {
     list-style-type: none;
 }
 
+
+/* carrot fritters section */
+
+#fritters-recipe {
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+    font-size: larger;
+    line-height: 50px;
+    background-color: rgba(174, 174, 142, 0.5);
+    margin: 0 auto;
+    display: block;
+}
+
+#fritters-recipe h2 {
+    padding: 0 auto;
+
+}
+
+#left-ingredients {
+    width: 33%;
+    float: left;
+    
+}
+
+#right-method {
+    width: 33%;
+    float: right;
+}
+
+#center-picture {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+
 /* footer */
 footer {
     height: 130px;
