@@ -10,18 +10,19 @@
 body {
     font-family: 'Source Code Pro', sans-serif;
     font-weight: 500;
-    color: #212529;
+    color: #343a40;
 }
 
 /* headings and logo */
 
 
 h1,
-h2 {
+h2, h3 {
     font-family: 'Cormorant Garamond', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #343a40;
+    color: #212529;
+    
    
     
 }
@@ -101,7 +102,7 @@ video#bgvideo {
 }
 
 #hook-outer {
-    height: 250px;
+    height: 210px;
     width: 100%;
     overflow: hidden;
 
@@ -112,7 +113,6 @@ video#bgvideo {
     text-align: center;
     line-height: 30px;
     padding: 20px;
- 
     margin: 50px;
     border: 2px solid;
     border-radius: 50%;
@@ -135,7 +135,7 @@ video#bgvideo {
 /* tips and tricks section */
 
 #tips-tricks {
-    height: 400px;
+    height: fit-content;
     padding: 30px;
     text-align: center;
     font-size: larger;
@@ -144,6 +144,9 @@ video#bgvideo {
     margin: 0 auto;
     display: block;
 
+}
+#tips-tricks hr {
+    margin: 30px;
 }
 
 #nobull {
@@ -154,21 +157,18 @@ video#bgvideo {
 /* carrot fritters section */
 
 #fritters-recipe {
-    height: 500px;
-    padding: 30px;
+    height: 450px; 
+    padding: 20px;
     text-align: center;
     font-size: larger;
-    line-height: 50px;
+    line-height: 45px;
     background-color: rgba(174, 174, 142, 0.5);
-    margin: 0 auto;
-    display: block;
+    
+    
 }
 
-#fritters-recipe h2 {
-    padding: 0 auto;
 
-}
-
+ 
 #left-ingredients {
     width: 33%;
     float: left;
@@ -188,9 +188,11 @@ video#bgvideo {
 
 
 /* footer */
+    
 footer {
-    height: 130px;
     text-align: center;
+    height: fit-content;
+    
 }
 
 .social-media {
