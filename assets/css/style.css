@@ -157,31 +157,45 @@ video#bgvideo {
 /* carrot fritters section */
 
 #fritters-recipe {
-    height: 450px; 
+    height: fit-content;
     padding: 20px;
     text-align: center;
     font-size: larger;
-    line-height: 45px;
+    line-height: 40px;
     background-color: rgba(174, 174, 142, 0.5);
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+   
+    
     
     
 }
  
 #left-ingredients {
+    
     width: 33%;
     float: left;
+    
+    
+    
     
 }
 
 #right-method {
+    
     width: 33%;
     float: right;
+    
+    
+    
 }
 
 #center-picture {
+   
     width: 33%;
     margin: 0 auto;
-   
+    
     
 }
 
@@ -197,7 +211,7 @@ video#bgvideo {
 }
 
 #circle-cover-bg { 
-    background: url(/assets/images/fritters.jpg) no-repeat center center;
+    background: url(/assets/images/carrot.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 
