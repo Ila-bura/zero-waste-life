@@ -211,11 +211,16 @@ video#bgvideo {
 }
 
 #circle-cover-bg { 
-    background: url(/assets/images/carrot.jpg) no-repeat center center;
+    background: url(/assets/images/carrots.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
+   
+   
 
 }
+
+
+
 /* footer */
     
 footer {
