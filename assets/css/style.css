@@ -17,14 +17,15 @@ body {
 
 
 h1,
-h2, h3 {
+h2,
+h3 {
     font-family: 'Cormorant Garamond', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #212529;
-    
-   
-    
+
+
+
 }
 
 #logo {
@@ -145,6 +146,7 @@ video#bgvideo {
     display: block;
 
 }
+
 #tips-tricks hr {
     margin: 30px;
 }
@@ -168,24 +170,24 @@ video#bgvideo {
     overflow: hidden;
 
 }
- 
+
 #left-ingredients {
-    
+
     width: 33%;
     float: left;
 }
 
 #right-method {
-    
+
     width: 33%;
-    float: right;  
+    float: right;
 }
 
 #center-picture {
-   
+
     width: 33%;
-    margin: 0 auto; 
-    
+    margin: 0 auto;
+
 }
 
 #circle-container {
@@ -194,31 +196,31 @@ video#bgvideo {
     padding: 30px;
     border-radius: 50%;
     margin: 0 auto;
-    
+
 }
 
-#circle-cover-bg { 
+#circle-cover-bg {
     background: url(/assets/images/carrot-fritters.jpg) no-repeat center center;
     height: 100%;
-    border-radius: 50%; 
+    border-radius: 50%;
 
 }
 
 
 
 /* footer */
-    
+
 footer {
     text-align: center;
     height: fit-content;
-    
+
 }
 
 .social-media {
     margin: 10px;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -228,5 +230,3 @@ footer {
     padding: 20px;
     color: #3a3a3a;
 }
-
-
