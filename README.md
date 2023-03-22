@@ -9,3 +9,6 @@ encoded using HandBrake
 
 
 Place Fontawesome kit at the boittom of the HTML file to speed up the loading time of the website.
+
+
+resize image for recipe. https://www.adobe.com/express/feature/image/resize
