@@ -230,3 +230,40 @@ footer {
     padding: 20px;
     color: #3a3a3a;
 }
+
+
+/* sign up form */
+
+.input-form {
+
+    color: #3a3a3a;
+    background-color: #F0EDE7;
+    font-size: 80%;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'Source Code Pro', sans-serif;
+
+
+
+}
+.input-form:hover {
+    background-color: #F0EDE7;
+
+}
+
+.submit-button {
+    background-color: #D0CEBC;
+    color: #3a3a3a;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 6px;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'Source Code Pro', sans-serif;
+
+}
+
+.submit-button:hover {
+    background-color: #F0EDE7;
+}

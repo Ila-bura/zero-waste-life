@@ -53,36 +53,36 @@
     <section id="tips-tricks">
         <h2>Sign up</h2>
         <hr>
-        
-        <form action="https://formdump.codeinstitute.net" method="POST">
 
-            <fieldset>
-                
-    
-        <div>
-          <label for="name-field">Name</label>
-        <input id="name-field" type="text" name="full_name" placeholder="">
-        </div>
-        <div>
-            <label for="surname-field">Surname</label>
-          <input id="surname-field" type="text" name="surname" placeholder="Last name">
-          </div>
-        <div>
-          <label for="email-field">Email</label>
-          <input id="email-field" type="email" name="email" placeholder="Email address">
-        </div>
-            </fieldset>
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <div>
+                <label for="firstName">First name:</label>
+                <input class="input-form" type="text" id="firstName" name="firstName" required placeholder="">
+            </div>
 
-            <fieldset>
-            
-                <label for="feedback">Which food do you tend to waste most?</label>
-                <textarea id="feedback" rows="1" cols="25" name="feedback"></textarea>
-            </fieldset>
-            <button type="submit">Submit</button>
-    
-        
-                
-    
+            <div>
+                <label for="lastName">Last name:</label>
+                <input class="input-form" type="text" id="lastName" name="lastName" required placeholder="">
+            </div>
+
+            <div>
+                <label for="email"><span>Email address:</label>
+                <input class="input-form" type="text" id="email" name="email" required placeholder="">
+            </div>
+            <div>
+
+                <label for="waste-survey">Which food do you waste the most?</label>
+                <input class="input-form" type="text" id="waste-survey" name="waste-survey" required placeholder="">
+            </div>
+            <div>
+                <input class="submit-button" type="submit" value="Submit!">
+            </div>
+
+        </form>
+
+
+
+
 
 
     </section>
