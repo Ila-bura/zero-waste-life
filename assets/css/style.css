@@ -200,7 +200,7 @@ video#bgvideo {
 }
 
 #circle-cover-bg {
-    background: url(/assets/images/carrot-fritters.jpg) no-repeat center center;
+    background: url(/assets/images/carrot-fritters.webp) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 
