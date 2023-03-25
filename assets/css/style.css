@@ -267,3 +267,12 @@ footer {
 .submit-button:hover {
     background-color: #F0EDE7;
 }
+
+
+/* confirmation message */
+
+#message {
+height: 50%;
+width: 40%;
+margin: auto;
+}
