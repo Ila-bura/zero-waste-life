@@ -102,11 +102,13 @@ video#bgvideo {
     background-size: cover;
 }
 
+
+/* hook bubble */
+
 #hook-outer {
     height: 210px;
     width: 100%;
     overflow: hidden;
-
 }
 
 #hook-text {
@@ -144,7 +146,6 @@ video#bgvideo {
     background-color: rgba(174, 174, 142, 0.5);
     margin: 0 auto;
     display: block;
-
 }
 
 #tips-tricks hr {
@@ -172,7 +173,6 @@ video#bgvideo {
 }
 
 #left-ingredients {
-
     width: 33%;
     float: left;
 }
@@ -184,10 +184,8 @@ video#bgvideo {
 }
 
 #center-picture {
-
     width: 33%;
     margin: 0 auto;
-
 }
 
 #circle-container {
@@ -213,7 +211,6 @@ video#bgvideo {
 footer {
     text-align: center;
     height: fit-content;
-
 }
 
 .social-media {
@@ -243,13 +240,9 @@ footer {
     border-style: solid;
     border-radius: 10px;
     font-family: 'Source Code Pro', sans-serif;
-
-
-
 }
 .input-form:hover {
     background-color: #F0EDE7;
-
 }
 
 .submit-button {
@@ -261,7 +254,6 @@ footer {
     border-style: solid;
     border-radius: 10px;
     font-family: 'Source Code Pro', sans-serif;
-
 }
 
 .submit-button:hover {
