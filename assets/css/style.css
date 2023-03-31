@@ -161,7 +161,7 @@ a {
 }
 
 a:hover {
-    color: #3AA5A2;
+    color: #306844;
   }
  
 
@@ -222,11 +222,11 @@ a:hover {
   }
   
   #content-wrap {
-    padding-bottom: 8.5rem;    /* Footer height */
+    padding-bottom: 8.5rem;   
   }
   
   /* footer */
-  
+
   #footer {
     position: absolute;
     bottom: 0;
@@ -256,7 +256,7 @@ p a {
     color: #212529;
 }
 p a:hover {
-    color: #3AA5A2;
+    color: #306844;
   }
  
 
