@@ -12,3 +12,6 @@ Place Fontawesome kit at the boittom of the HTML file to speed up the loading ti
 
 
 resize image for recipe. https://www.adobe.com/express/feature/image/resize
+
+
+redirect to hopme page https://blog.hubspot.com/website/html-redirect
