@@ -313,12 +313,9 @@ margin: auto;
     }
 
     #logo {
-        font-size: smaller;
+        font-size: 100%;
     }
-    #menu {
-        font-size: medium;
-    }
-
+   
     #fritters-recipe {
         font-size: medium;
         background: none;
@@ -338,3 +335,31 @@ margin: auto;
         background: rgba(174, 174, 142, 0.7);
     }
 }
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        line-height: 25px;
+        padding: 0;
+        list-style: none;
+       
+    }
+    #menu li {
+        font-size: 14px;
+        display:contents;
+        padding: 5px 15px;
+    }
+
+    #logo {
+        font-size: 50%;
+        line-height: 30px; 
+    }
+    
+}
+    
