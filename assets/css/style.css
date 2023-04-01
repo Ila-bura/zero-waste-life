@@ -23,9 +23,6 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #212529;
-
-
-
 }
 
 #logo {
@@ -39,7 +36,6 @@ h3 {
     line-height: 55px;
     width: fit-content;
     height: fit-content;
-
 }
 
 hr {
@@ -121,7 +117,7 @@ video#bgvideo {
     float: right;
     width: -moz-fit-content;
     width: fit-content;
-    background-color: rgba(174, 174, 142, 0.5);
+    
 }
 
 #hook-text,
@@ -142,7 +138,7 @@ video#bgvideo {
     text-align: center;
     font-size: larger;
     line-height: 50px;
-    background-color: rgba(174, 174, 142, 0.5);
+    background: rgba(174, 174, 142, 0.6);
     margin: 0 auto;
     display: block;
 }
@@ -172,7 +168,7 @@ a:hover {
     text-align: center;
     font-size: larger;
     line-height: 40px;
-    background-color: rgba(174, 174, 142, 0.7);
+    background: rgba(174, 174, 142, 0.7);
     margin: 0 auto;
     display: block;
     overflow: hidden;
@@ -192,6 +188,7 @@ a:hover {
 #center-picture {
     width: 33%;
     margin: 0 auto;
+   
 }
 
 #circle-container {
@@ -307,10 +304,11 @@ margin: auto;
 
     #hook-outer {
     overflow: hidden;
+
     }
 
     #hook-text {
-        background-color: #D0CEBC;
+        background: rgba(174, 174, 142, 0.6);
         font-size: smaller;
     }
 
@@ -323,6 +321,7 @@ margin: auto;
 
     #fritters-recipe {
         font-size: medium;
+        background: none;
     }
 
     #center-picture {
@@ -330,5 +329,12 @@ margin: auto;
         width: 100%;
         padding: 0;
         float: left;
+    }
+
+    #left-ingredients {
+        background: rgba(174, 174, 142, 0.7);
+    }
+    #right-method {
+        background: rgba(174, 174, 142, 0.7);
     }
 }
