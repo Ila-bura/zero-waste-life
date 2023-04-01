@@ -362,7 +362,6 @@ margin: auto;
     }
     
 
-
     #hook-outer {
        width: 90%;
        height: 50%;
@@ -385,5 +384,14 @@ margin: auto;
     hr {
         display: none;
     }
+
+    #fritters-recipe {
+        font-size: 60%;
+        line-height: 25px; 
+        padding: 10px auto;
+        
+    }
+    
+    
 }
     
