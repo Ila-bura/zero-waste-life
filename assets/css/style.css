@@ -205,7 +205,18 @@ a:hover {
     border-radius: 50%;
 }
 
+/* compost section */
 
+#compost {
+    height: fit-content;
+    padding: 30px;
+    text-align: center;
+    font-size: larger;
+    line-height: 50px;
+    background: rgba(174, 174, 142, 0.6);
+    margin: 0 auto;
+    display: block;
+}
 
 /* container */
 
@@ -392,6 +403,24 @@ margin: auto;
         
     }
     
+    #compost {
+        font-size: 80%;
+    }
+
+    iframe {
+        width:fit-content;
+        height: fit-content;
+    }
+    footer {
+        font-size: 80%;
+    }
+
+    #message {
+        height: 90%;
+width: 70%;
+
+
+    }
     
 }
     
