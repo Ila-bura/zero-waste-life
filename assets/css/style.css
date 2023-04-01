@@ -298,13 +298,13 @@ margin: auto;
 /* For larger to medium screens size from 1100px wide and down */
 
 @media screen and (max-width: 1100px) {
-    #tips-tricks {
-        font-size: medium;
+
+    #logo {
+        font-size: 100%;
     }
 
     #hook-outer {
     overflow: hidden;
-
     }
 
     #hook-text {
@@ -312,8 +312,8 @@ margin: auto;
         font-size: smaller;
     }
 
-    #logo {
-        font-size: 100%;
+    #tips-tricks {
+        font-size: medium;
     }
    
     #fritters-recipe {
@@ -361,5 +361,29 @@ margin: auto;
         line-height: 30px; 
     }
     
+
+
+    #hook-outer {
+       width: 90%;
+       height: 50%;
+       margin: 0 auto;
+    
+    }
+
+    #hook-text {
+        background: rgba(174, 174, 142, 0.6);
+        font-size: 11px;
+        padding: 25px;
+    }
+
+    #tips-tricks {
+        font-size: 70%;
+        padding: 25px;
+        margin-top: 5px;
+        line-height: 30px; 
+    }
+    hr {
+        display: none;
+    }
 }
     
