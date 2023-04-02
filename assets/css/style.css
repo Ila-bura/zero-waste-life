@@ -306,17 +306,10 @@ margin: auto;
 
 /* media queries */
 
-/* For larger to medium screens size from 1100px wide and down */
+/* For larger to medium screens size from 1200px wide and down */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
 
-    #logo {
-        font-size: 100%;
-    }
-
-    #hook-outer {
-    overflow: hidden;
-    }
 
     #hook-text {
         background: rgba(174, 174, 142, 0.6);
@@ -324,27 +317,19 @@ margin: auto;
     }
 
     #tips-tricks {
-        font-size: medium;
+        font-size: 18px;
+        line-height: 45px;
     }
    
     #fritters-recipe {
-        font-size: medium;
-        background: none;
+        font-size: 18px;
+        line-height: 45px; 
     }
 
-    #center-picture {
-        clear: both;
-        width: 100%;
-        padding: 0;
-        float: left;
-    }
+   
 
-    #left-ingredients {
-        background: rgba(174, 174, 142, 0.7);
-    }
-    #right-method {
-        background: rgba(174, 174, 142, 0.7);
-    }
+    
+
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -368,7 +353,7 @@ margin: auto;
     }
 
     #logo {
-        font-size: 50%;
+        font-size: 70%;
         line-height: 30px; 
     }
     
@@ -383,25 +368,52 @@ margin: auto;
     #hook-text {
         background: rgba(174, 174, 142, 0.6);
         font-size: 11px;
-        padding: 25px;
+       
     }
 
     #tips-tricks {
-        font-size: 70%;
+        font-size: 80%;
         padding: 25px;
         margin-top: 5px;
-        line-height: 30px; 
+        line-height: 45px; 
     }
-    hr {
+    #tips-tricks hr {
         display: none;
     }
-
+    #compost hr {
+        display: none;
+    }
     #fritters-recipe {
-        font-size: 60%;
+        font-size: 80%;
         line-height: 25px; 
         padding: 10px auto;
-        
+    
     }
+
+    #fritters-recipe h2 {
+        margin-bottom: 20px;
+    }
+
+    #center-picture {
+        clear: both;
+        width: 100%;
+        padding: 0;
+        float: left;
+    }
+
+    #circle-container {
+        width: 150px;
+        height: 150px;
+        padding: 20px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    #circle-cover-bg {
+    background: url(../images/single-fritters-resized.webp) no-repeat center center;
+    border-radius: 50%;
+    margin: 0 auto;
+    }
+       
     
     #compost {
         font-size: 80%;
