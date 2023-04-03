@@ -21,11 +21,20 @@ Provide useful and practical and easy to implement tips to encourage users to re
 Anyone who wish to leave the world as a better place and is willing to make an effort to reduce the amount of waste they produce in their daily activities. Our target audience spans from young professionals to stay-at-home parents, typically in the 20 to 45 age range. What they all have in common is they are passionate about sustainability, they carefully choose what to consume and they tend to prefer a vegetarian or vegan diet.  
 
 ## Communication
-In line with the site ethos, the content is displayed in little "nuggets" of information, to avoid overwhelming the users. The text bubbles in every page are intended as "calls to action" to engage the users.
+In line with the site ethos, the content is displayed in little "nuggets" of information, meant to be easily read without overwhelming the users. The text bubbles in every page are intended as "calls to action" to engage the users.
 
 # Design
 
+
 ## Color Scheme
+The starting point to develop a color scheme was inspired to match the colors in the picture chosen to be the background image for the site. The overall intent was to convey a sense of relaxation, with muted tones and delicate hues. The Chrome extension ColorZilla was used to pick specific colors from the background image, one of which was then converted to RGBA format to match the same hue for the background of the sections with text. ColorZilla was also used to pick a specific shade of white from the background image to be used for the form fields as well as the submit button.
+ColorSpace was also used to generate matching gradient palette. 
+To create a pleasantly contrasting effect the logo and the titles and the text content have a darker tones. In keeping with the intent of creating a pleasant effect, the black color was avoided in favour of less extreme shades.
+
+![Screenshot of the gradient palette generated using ColorSpace.](/assets/images-readme/gradient-palette.png)
+
+
+
 ## Typography
 ## Imagery
 

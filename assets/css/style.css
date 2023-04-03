@@ -32,7 +32,7 @@ h3 {
     margin-top: 20px;
     padding: 3px 20px;
     text-align: center;
-    color: #343a40;
+    color: #212529;
     line-height: 55px;
     width: fit-content;
     height: fit-content;
@@ -156,7 +156,7 @@ a {
 }
 
 a:hover {
-    color: #306844;
+    color: #006C60;
   }
  
 
@@ -259,7 +259,7 @@ p a {
     color: #212529;
 }
 p a:hover {
-    color: #306844;
+    color: #006C60;
   }
  
 
@@ -324,11 +324,7 @@ margin: auto;
     #fritters-recipe {
         font-size: 18px;
         line-height: 45px; 
-    }
-
-   
-
-    
+    }  
 
 }
 
