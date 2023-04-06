@@ -37,6 +37,10 @@ h3 {
     height: fit-content;
 }
 
+#logo h2 {
+    font-size: medium;
+}
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
