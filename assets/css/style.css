@@ -15,7 +15,6 @@ body {
 
 /* headings and logo */
 
-
 h1,
 h2,
 h3 {
@@ -75,9 +74,7 @@ hr {
     border-bottom: 1px solid #212529;
 }
 
-
 /* background video */
-
 
 video#bgvideo {
     position: fixed;
@@ -92,7 +89,6 @@ video#bgvideo {
     background: url("../images/placeholder.webp") no-repeat;
     background-size: cover;
 }
-
 
 /* hook bubble */
 
@@ -114,13 +110,11 @@ video#bgvideo {
     float: right;
     width: -moz-fit-content;
     width: fit-content;
-    
 }
 
 #hook-text,
 #hook-text h2 {
     color: #212529;
-
 }
 
 #hook-text h2 {
@@ -149,13 +143,12 @@ video#bgvideo {
 }
 
 a {
-  color: #212529;
+    color: #212529;
 }
 
 a:hover {
     color: #006C60;
-  }
- 
+}
 
 /* carrot fritters section */
 
@@ -169,7 +162,6 @@ a:hover {
     margin: 0 auto;
     display: block;
     overflow: hidden;
-
 }
 
 #left-ingredients {
@@ -185,7 +177,6 @@ a:hover {
 #center-picture {
     width: 33%;
     margin: 0 auto;
-   
 }
 
 #circle-container {
@@ -220,21 +211,21 @@ a:hover {
 #page-container {
     position: relative;
     min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 8.5rem;   
-  }
-  
-  /* footer */
+}
 
-  #footer {
+#content-wrap {
+    padding-bottom: 8.5rem;
+}
+
+/* footer */
+
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 8.5rem; 
+    height: 8.5rem;
     text-align: center;
-  }
+}
 
 .social-media {
     margin: 10px;
@@ -255,11 +246,10 @@ p a {
     text-decoration: none;
     color: #212529;
 }
+
 p a:hover {
     color: #006C60;
-  }
- 
-
+}
 
 /* sign up form */
 
@@ -272,6 +262,7 @@ p a:hover {
     border-radius: 10px;
     font-family: 'Source Code Pro', sans-serif;
 }
+
 .input-form:hover {
     background-color: #F0EDE7;
 }
@@ -291,22 +282,19 @@ p a:hover {
     background-color: #F0EDE7;
 }
 
-
 /* confirmation message */
 
 #message {
-height: 50%;
-width: 40%;
-margin: auto;
+    height: 50%;
+    width: 40%;
+    margin: auto;
 }
-
 
 /* media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-
 
     #hook-text {
         background: rgba(174, 174, 142, 0.6);
@@ -317,12 +305,11 @@ margin: auto;
         font-size: 18px;
         line-height: 45px;
     }
-   
+
     #fritters-recipe {
         font-size: 18px;
-        line-height: 45px; 
-    }  
-
+        line-height: 45px;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -337,50 +324,49 @@ margin: auto;
         line-height: 25px;
         padding: 0;
         list-style: none;
-       
     }
+
     #menu li {
         font-size: 14px;
-        display:contents;
+        display: contents;
         padding: 5px 15px;
     }
 
     #logo {
         font-size: 70%;
-        line-height: 30px; 
+        line-height: 30px;
     }
-    
 
     #hook-outer {
-       width: 90%;
-       height: 50%;
-       margin: 0 auto;
-    
+        width: 90%;
+        height: 50%;
+        margin: 0 auto;
     }
 
     #hook-text {
         background: rgba(174, 174, 142, 0.6);
         font-size: 11px;
-       
     }
 
     #tips-tricks {
         font-size: 80%;
         padding: 25px;
         margin-top: 5px;
-        line-height: 45px; 
+        line-height: 45px;
     }
+
     #tips-tricks hr {
         display: none;
     }
+
     #compost hr {
         display: none;
     }
+
     #fritters-recipe {
         font-size: 80%;
-        line-height: 25px; 
+        line-height: 25px;
         padding: 10px 20px;
-    
     }
 
     #fritters-recipe h2 {
@@ -401,31 +387,29 @@ margin: auto;
         border-radius: 50%;
         margin: 0 auto;
     }
+
     #circle-cover-bg {
-    background: url(../images/single-fritters-resized.webp) no-repeat center center;
-    border-radius: 50%;
-    margin: 0 auto;
+        background: url(../images/single-fritters-resized.webp) no-repeat center center;
+        border-radius: 50%;
+        margin: 0 auto;
     }
-       
-    
+
     #compost {
         font-size: 80%;
     }
 
     iframe {
-        width:fit-content;
+        width: fit-content;
         height: fit-content;
     }
+
     footer {
         font-size: 80%;
     }
 
     #message {
         height: 90%;
-width: 70%;
-
-
+        width: 70%;
     }
-    
+
 }
-    
