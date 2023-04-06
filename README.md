@@ -60,6 +60,14 @@ The logo can be seen on the upper left corner of every page of the website. Lack
 ![Screenshot of the website logo](/assets/images/images-readme/logo.png)
 
 ### Navigation Bar
+The navigation bar is displayed across all pages and provides an intuitive reference to navigate between the different sections of the website. The names of the four elements in the menu clearly state the content of each page.
+
+
+![Screenshot of the navigation bar](/assets/images/images-readme/navigation-bar.png)
+
+To fix the issue of the inverted order of the menu items, after researching online, a viable solution was found on [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) by adding a float:left property to the li element coupled with a float:right property applied to the ul element.
+
+Similar to how it was done in the Love Running walkthrough project, the menu links were set to underline to provide visual clues for the user as to what link they're about to click on when they hover over it with the cursor.
 
 ### Landing Page
 ### Recipe Page
