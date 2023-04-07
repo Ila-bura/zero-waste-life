@@ -43,7 +43,7 @@ The images and background video used for this website were sourced from the free
 The video withe the vase of flowers used as a background is by Artem Podrez and can be found [here](https://www.pexels.com/video/decorative-flower-in-glass-vase-against-white-background-4884243/).
 The placeholder picture is a screenshot of the video then converted to webp format, using [birme.net](https://www.birme.net/?target_width=300&target_height=300&image_format=webp&quality_jpeg=100&quality_webp=100).
 
-The picture of the fritters used in the recipe page is by Morena Vw and can be found [here](https://www.pexels.com/photo/zucchini-fritters-with-tomatoes-and-green-vegetables-on-white-ceramic-plate-6911885/). As a side note, finding a free stock photo of precisely carrot fritters proved harder than anticipated so eventually this zucchini fritters was chosen as a representative enough image to match the recipe.
+The picture of the fritters used in the recipe page is by Morena Vw and can be found [here](https://www.pexels.com/photo/zucchini-fritters-with-tomatoes-and-green-vegetables-on-white-ceramic-plate-6911885/). As a side note, finding a free stock photo of precisely carrot fritters proved harder than anticipated, therefore eventually this zucchini fritters was chosen as a representative enough image to match the recipe.
 
 The fritters image was resized and compressed using [Adobe Express](https://www.adobe.com/express/feature/image/resize).
 
@@ -70,7 +70,21 @@ To fix the issue of the inverted order of the menu items, after researching onli
 Similar to how it was done in the Love Running walkthrough project, the menu links were set to underline to provide visual clues for the user as to what link they're about to click on when they hover over it with the cursor.
 
 ### Landing Page
+The landing page welcomes the users with the relaxing effect of some water moving in a vase of flower, created by embedding a short clip as the background. The video is set on loop, to maintain the same soothing effect while users navigate the website.
+
+Listed in the central part of the homepage we can find useful tips and tricks the users are encouraged to implement in their life. 
+On the right, below the menu, a nugget of information is displayed in a bubble to provide an interesting fact about how much fruit and vegetables are wasted every year. 
+
+![Screenshot of the landing page](/assets/images/images-readme/home-tricks.png) ![Screenshot of the navigation bar](/assets/images/images-readme/home-bubble.png)
+
+
 ### Recipe Page
+The Recipe page is dedicated to one single recipe, specifically chosen to promote the fight against food waste. The list of ingredients and method content was adapted from an original recipe by [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).
+In a future iteration, this section could be expanded to host more recipes.
+Once again on the right, below the menu we can find a bubble with an engaging call to action, inviting users to try the recipe.
+
+The body of the recipe page is horizontally divided into three parts: the ingredients and method columns are separated by an image in between. As a side note, finding a free stock photo of carrot fritters proved harder than anticipated, therefore a picture of zucchini fritters was chosen instead as it appropriately matches the recipe. The image is styled with a circular container, as learnt in the Love Running walkthough project.
+
 ### Compost Page
 ### Sign Up Page
 ### Thanks Message

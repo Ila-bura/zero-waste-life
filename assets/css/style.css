@@ -210,6 +210,10 @@ a:hover {
     display: block;
 }
 
+iframe {
+    padding: 25px;
+}
+
 /* container */
 
 #page-container {
