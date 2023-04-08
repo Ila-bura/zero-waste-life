@@ -98,7 +98,9 @@ The body of the recipe page is horizontally divided into three parts: the ingred
 
 ![Screenshot of the recipe page](/assets/images/images-readme/recipe-page.png)
 
-Once again on the right, below the menu we can find a bubble with an engaging call to action, inviting users to try the recipe. ![Screenshot of the recipe bubble](/assets/images/images-readme/recipe-bubble.png)
+Once again on the right, below the menu we can find a bubble with an engaging call to action, inviting users to try the recipe.
+
+![Screenshot of the recipe bubble](/assets/images/images-readme/recipe-bubble.png)
 
 In a future iteration, this section could be expanded to host more recipes.
 
@@ -107,10 +109,33 @@ The Compost page is where Users can watch a video about composting and learn mor
 The video is relatively short (around 3 minutes) but with clear and simple instructions on how to get started with composting at home. In keeping with the essential ethos of the website, the video was not intended to provide a fully comprehensive guide to composting, rather to captivate the users in a fun and engaging way, based on the assumption that the vast majority of our users have never tried composting at all.
 
 ### Sign Up Page
-### Thanks Message
+In the Sign Up page users find a form they are invited to fill in with their details as well as the food they tend to waste the most. The first name field is set to autofocus, to improve user's experience. The form was created for educational purposes only and once the Submit button is clicked, users are simply directed to the confirmation page, where a thank you message is displayed. This was achieved by adding the path Confirmation.html to the form action.
+
+![Screenshot of the sign up form](/assets/images/images-readme/signup-form.png)
+
+For consistency, also on this page a bubble message is displayed, once again inviting the users to take actions: in this case to subscribe to the Zero Waste Life newsletter.
+
+![Screenshot of the sign up bubble](/assets/images/images-readme/signup-bubble.png)
+### Confirmation Page
+Users land on this page after submitting their details in the Sign Up page. The thank you message sets the expectations regarding the content and frequency of the newsletter: users can expect to receive on a monthly basis a new recipe and more tips and tricks to implement in their life.
+The last line informs the users that they will be soon redirected to the Homepage. 
+To learn how to implement this feature, I researched the topic online and followed the instructions found on [HubSpot](https://blog.hubspot.com/website/html-redirect).
+
+![Screenshot of the confirmation message](/assets/images/images-readme/confirmation-message.png)
+
+Once again, for consistency, another bubble message is displayed, this time congratulating the users on signing up to the newsletter.
+
+![Screenshot of the confirmation bubble](/assets/images/images-readme/confirmation-bubble.png)
+
 ### Footer
+Links to the main social media platforms can be found at the bottom of each page. All the links are set to open in a separate tab.
+Below the social media row, a line was added with the student's name. By clicking on it, the hyperlink opens the student's GitHub account in a separate tab.
+
+![Screenshot of the footer](/assets/images/images-readme/footer.png)
 
 ## Features to implement
+Expand the Recipe section to include more recipes and a photo gallery.
+Create dedicated pages with tips and tricks to implement in other areas of life, that are not related to food, such as clothing, packaging and household maintenance.
 
 # Testing
 
@@ -120,7 +145,16 @@ The video is relatively short (around 3 minutes) but with clear and simple instr
 
 # Technologies Used
 ## Main Languages
+HTML5
+CSS3
 ## Frameworks, Libraries & Programs
+Google Fonts: for the font families: Source Code Pro, Cormorant Garamond. San-serif was used as a default font.
+Font Awesome: to add icons to the Tips & Tricks list as well as the social media links in the footer element.
+GitPod: to create the html files and styling sheet before pushing the project to Github.
+GitHub: to store the repository for submission.
+Balsamiq: used to create mockups of the project prior to starting.
+Am I Responsive? - to ensure the project looked good across all devices.
+Favicon: to generate the image for the icon in the tab bar.
 
 # Deployment
 
