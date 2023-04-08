@@ -70,22 +70,42 @@ To fix the issue of the inverted order of the menu items, after researching onli
 Similar to how it was done in the Love Running walkthrough project, the menu links were set to underline to provide visual clues for the user as to what link they're about to click on when they hover over it with the cursor.
 
 ### Landing Page
-The landing page welcomes the users with the relaxing effect of some water moving in a vase of flower, created by embedding a short clip as the background. The video is set on loop, to maintain the same soothing effect while users navigate the website.
+The landing page welcomes the users with a relaxing effect of water moving in a vase of flower, created by embedding a short clip as the hero background video. The video is set on loop, to maintain the same soothing effect while users navigate the website but without being too obvious.
 
-Listed in the central part of the homepage we can find useful tips and tricks the users are encouraged to implement in their life. 
+To learn how to embed a hero background video I reserached the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/).
+The video was encoded using HandBrake, after researching the subject [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
+This allowed me to optimize the size and quality of the hero video to fit devices.
+
+Listed in the central part of the homepage we can find useful tips and tricks the users are encouraged to implement in their life. The main content was on purpose displayed on the landing page, to be easily and readily accessible.
+
+
+![Screenshot of the landing page](/assets/images/images-readme/home-tricks.png)
+
+
 On the right, below the menu, a nugget of information is displayed in a bubble to provide an interesting fact about how much fruit and vegetables are wasted every year. 
 
-![Screenshot of the landing page](/assets/images/images-readme/home-tricks.png) ![Screenshot of the navigation bar](/assets/images/images-readme/home-bubble.png)
+
+![Screenshot of the home bubble](/assets/images/images-readme/home-bubble.png)
+
+The last item in the Tips & Tricks list provides a clickable link directing users to the Compost page within the website. The link changes color to a vibrant shade of green when users hover over it with their cursor:
+
+![Screenshot of the compost link](/assets/images/images-readme/link-to-compost.png)
 
 
 ### Recipe Page
 The Recipe page is dedicated to one single recipe, specifically chosen to promote the fight against food waste. The list of ingredients and method content was adapted from an original recipe by [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).
-In a future iteration, this section could be expanded to host more recipes.
-Once again on the right, below the menu we can find a bubble with an engaging call to action, inviting users to try the recipe.
-
 The body of the recipe page is horizontally divided into three parts: the ingredients and method columns are separated by an image in between. As a side note, finding a free stock photo of carrot fritters proved harder than anticipated, therefore a picture of zucchini fritters was chosen instead as it appropriately matches the recipe. The image is styled with a circular container, as learnt in the Love Running walkthough project.
 
+![Screenshot of the recipe page](/assets/images/images-readme/recipe-page.png)
+
+Once again on the right, below the menu we can find a bubble with an engaging call to action, inviting users to try the recipe. ![Screenshot of the recipe bubble](/assets/images/images-readme/recipe-bubble.png)
+
+In a future iteration, this section could be expanded to host more recipes.
+
 ### Compost Page
+The Compost page is where Users can watch a video about composting and learn more about it. The video was sourced from [YouTube](https://www.youtube.com/watch?v=egyNJ7xPyoQ) and embedded into the page. The video does not autoplay and the YouTube controls were kept.
+The video is relatively short (around 3 minutes) but with clear and simple instructions on how to get started with composting at home. In keeping with the essential ethos of the website, the video was not intended to provide a fully comprehensive guide to composting, rather to captivate the users in a fun and engaging way, based on the assumption that the vast majority of our users have never tried composting at all.
+
 ### Sign Up Page
 ### Thanks Message
 ### Footer
