@@ -332,11 +332,12 @@ p a:hover {
         line-height: 25px;
         padding: 0;
         list-style: none;
+        background: rgba(174, 174, 142, 0.6);
     }
 
     #menu li {
         font-size: 14px;
-        display: contents;
+        display:contents;
         padding: 5px 15px;
     }
 
