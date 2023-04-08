@@ -36,18 +36,18 @@ To create a contrasting effect, the logo, the main headings and the text content
 
 
 ## Typography
-Cormorant Garamond was selected as the font family for the headings, primarily in bold, to achieve a stylized and sleek final effect. On the other hand, Source Code Pro was chosen for the body content: its unpretentious line vaguely remind of the text produced by a typing machine, which make the font esthetically pleasing yet keeping it easy to read. The font family was created using [Google Fonts]( https://fonts.google.com/).
+Cormorant Garamond was selected as the font family for the headings, primarily in bold, to achieve a stylized and sleek final effect. On the other hand, Source Code Pro was chosen for the body content: its unpretentious line vaguely remind of the text produced by a typing machine, which make the font esthetically pleasing yet keeping it easy to read. The font family was created using Google Fonts.
 
 ## Imagery
-The images and background video used for this website were sourced from the free stock photo platform Pexel.
-The video withe the vase of flowers used as a background is by Artem Podrez and can be found [here](https://www.pexels.com/video/decorative-flower-in-glass-vase-against-white-background-4884243/).
-The placeholder picture is a screenshot of the video then converted to webp format, using [birme.net](https://www.birme.net/?target_width=300&target_height=300&image_format=webp&quality_jpeg=100&quality_webp=100).
 
-The picture of the fritters used in the recipe page is by Morena Vw and can be found [here](https://www.pexels.com/photo/zucchini-fritters-with-tomatoes-and-green-vegetables-on-white-ceramic-plate-6911885/). As a side note, finding a free stock photo of precisely carrot fritters proved harder than anticipated, therefore eventually this zucchini fritters was chosen as a representative enough image to match the recipe.
+All the imagery on the site, including the hero background video were sourced from the free stock photo platform Pexel. More information can be found in the Credits section of this document.
+The choice of all the images and video was aimed at supporting the theme of the site. TMore specifically the hero video was chosen to create a relaxing effect of water moving in a vase of flower. This was achieved by embedding a short clip as the hero background video. The video is set on loop, to maintain the same soothing effect while users navigate the website but without being too distracting.
 
-The fritters image was resized and compressed using [Adobe Express](https://www.adobe.com/express/feature/image/resize).
+The video was encoded using HandBrake and this allowed me to optimize the size and quality of the hero video to fit devices.
 
-The favicon was created using the online generator available on [favicon.io](https://favicon.io/).
+The placeholder picture is a screenshot of the video then converted to webp format.
+
+Finding a free stock photo of precisely a platter of carrot fritters proved harder than anticipated, therefore the picture displayed in the recipe page is actually a platter of zucchini fritters, which was deemed representative enough image to match the recipe.
 
 
 # Current Features
@@ -70,13 +70,9 @@ To fix the issue of the inverted order of the menu items, after researching onli
 Similar to how it was done in the Love Running walkthrough project, the menu links were set to underline to provide visual clues for the user as to what link they're about to click on when they hover over it with the cursor.
 
 ### Landing Page
-The landing page welcomes the users with a relaxing effect of water moving in a vase of flower, created by embedding a short clip as the hero background video. The video is set on loop, to maintain the same soothing effect while users navigate the website but without being too obvious.
+The landing page welcomes the users with an unobtrusive and relaxing effect of water moving in a vase of flower, created by embedding a short clip as the hero background video. This is a recurring feature that is displayed in every single page of the website.
 
-To learn how to embed a hero background video I reserached the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/).
-The video was encoded using HandBrake, after researching the subject [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
-This allowed me to optimize the size and quality of the hero video to fit devices.
-
-Listed in the central part of the homepage we can find useful tips and tricks the users are encouraged to implement in their life. The main content was on purpose displayed on the landing page, to be easily and readily accessible.
+Listed in the central part of the homepage we can find useful tips and tricks the users are encouraged to implement in their life. The main content was displayed directly on the landing page on purpose, so that user can easily and readily access it.
 
 
 ![Screenshot of the landing page](/assets/images/images-readme/home-tricks.png)
@@ -138,33 +134,73 @@ Expand the Recipe section to include more recipes and a photo gallery.
 Create dedicated pages with tips and tricks to implement in other areas of life, that are not related to food, such as clothing, packaging and household maintenance.
 
 # Testing
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+The following issues were raised during my mid project meeting with my mentor:
 
 ## Validator Testing
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+Index Page HTML
+Recipe Page HTML
+Compost Page HTML
+Sign Up Page HTML
+Confirmation Page HTML
+style.css CSS
+
 ## Fixed Bugs
+
+
+
 ## Unfixed Bugs
+## Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+Logo: h3 used after h1
+In the Compost page: Link doesn't have a descriptive text (Learn how to compost here).
 
 # Technologies Used
 ## Main Languages
 HTML5
 CSS3
+
 ## Frameworks, Libraries & Programs
-Google Fonts: for the font families: Source Code Pro, Cormorant Garamond. San-serif was used as a default font.
+
+[Balsamiq](https://balsamiq.com/): used to create wireframes.
+GitPod: for version control before pushing the project to Github.
+GitHub: to save and store the files for submission.
+[Google Fonts]( https://fonts.google.com/): for the font families: Source Code Pro, Cormorant Garamond. San-serif was used as a default font.
 Font Awesome: to add icons to the Tips & Tricks list as well as the social media links in the footer element.
-GitPod: to create the html files and styling sheet before pushing the project to Github.
-GitHub: to store the repository for submission.
-Balsamiq: used to create mockups of the project prior to starting.
+Google Dev Tools: to troubleshoot and test features, solve issues with responsiveness and styling.
+[Adobe Express](https://www.adobe.com/express/feature/image/resize): to resize and compress images. 
+HandBrake: to encode the hero video.
+[birme.net](https://www.birme.net/?target_width=300&target_height=300&image_format=webp&quality_jpeg=100&quality_webp=100): to convert the placehodler picture to webp format.
+[favicon.io](https://favicon.io/): to generate the image for the icon in the tab bar.
 Am I Responsive? - to ensure the project looked good across all devices.
-Favicon: to generate the image for the icon in the tab bar.
 
 # Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found [HERE](https://www.google.com)
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+Log in (or sign up) to Github.
+Find the repository for this project, zero-waste-life.
+Click on the Settings link.
+Click on the Pages link in the left hand side navigation bar.
+In the first section displayed, the live Github Pages site is now deployed at the URL shown.
+
+![Screenshot of the deployed site on GitHub](/assets/images/images-readme/deployed-site-github.png)
 
 # Credits
 
+
 ## Content
+
+The initial set up and style of this project was inspired by the 'Love Running' walk-through project. In particular, a similar approach was taken for the design of the navigation bar, along with the display of the social links in the footer element.
+
+To learn how to embed a hero background video I researched the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/) and [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
+
 ## Media
+
+The video with the vase of flowers used as a hero background is by [Artem Podrez](https://www.pexels.com/video/decorative-flower-in-glass-vase-against-white-background-4884243/).
+The placeholder picture is a screenshot of the video then converted to webp format.
+
+The picture of the fritters used in the recipe page is by [Morena Vw](https://www.pexels.com/photo/zucchini-fritters-with-tomatoes-and-green-vegetables-on-white-ceramic-plate-6911885/).  
