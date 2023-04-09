@@ -49,6 +49,11 @@ The placeholder picture is a screenshot of the video then converted to webp form
 
 Finding a free stock photo of precisely a platter of carrot fritters proved harder than anticipated, therefore the picture displayed in the recipe page is actually a platter of zucchini fritters, which was deemed representative enough image to match the recipe.
 
+# Wireframes
+The wireframes were created using Balsamiq:
+* Mobile Wireframe: [view](/assets/wireframes/mobile-wireframe.png)
+* Tablet Wireframe: [view](/assets/wireframes/tablet-wireframe.png)
+* Desktop Wireframe: [view](/assets/wireframes/desktop-wireframe.png)
 
 # Current Features
 
@@ -135,17 +140,23 @@ Create dedicated pages with tips and tricks to implement in other areas of life,
 
 # Testing
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
-The following issues were raised during my mid project meeting with my mentor:
+The following issues were raised during my mid project meeting with my mentor: 
+
+* Absolute vs. relative path: the following error was displayed in the DevTools:
+ ![Screenshot of the 404 message](/assets/images/images-readme/placeholder-error.png)
+
+Solved by fixing the file path to "../images/placeholder.webp".
+* My mentor suggested to have consistency in the use of either underscore or dash as a naming convention for classes and ids in my code. Solved by choosing to use a dash to separate words in names.
 
 ## Validator Testing
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. No errors were found in any of the files.
 
-Index Page HTML
-Recipe Page HTML
-Compost Page HTML
-Sign Up Page HTML
-Confirmation Page HTML
-style.css CSS
+* Index Page HTML: [view](/assets/images/images-readme/W3C/W3C-index.png)
+* Recipe Page HTML: [view](/assets/images/images-readme/W3C/W3C-recipe.png)
+* Compost Page HTML: [view](/assets/images/images-readme/W3C/W3C-compost.png)
+* Sign Up Page HTML: [view](/assets/images/images-readme/W3C/W3C-signup.png)
+* Confirmation Page HTML: [view](/assets/images/images-readme/W3C/W3C-confirmation.png)
+* style.css CSS: [view](/assets/images/images-readme/W3C/W3C-CSS.png)
 
 ## Fixed Bugs
 

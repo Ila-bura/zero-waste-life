@@ -112,7 +112,6 @@ video#bgvideo {
     border-radius: 50%;
     bottom: 530px;
     float: right;
-    width: -moz-fit-content;
     width: fit-content;
 }
 
