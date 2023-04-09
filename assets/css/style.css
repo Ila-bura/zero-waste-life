@@ -336,7 +336,7 @@ p a:hover {
 
     #menu li {
         font-size: 14px;
-        display:contents;
+        display: contents;
         padding: 5px 15px;
     }
 
@@ -422,6 +422,32 @@ p a:hover {
     #message {
         height: 90%;
         width: 70%;
+    }
+}
+
+/* For small screen sizes from 320px wide and down */
+
+@media screen and (max-width: 320px) {
+    #menu {
+        clear: left;
+        float: left;
+        padding: 0;
+        list-style: none;
+        background: rgba(174, 174, 142, 0.6);
+    }
+
+    #menu li {
+        font-size: 11px;
+        display: contents;
+        padding: 5px 5px;
+    }
+
+    video#bgvideo {
+        max-height: -webkit-fill-available;
+    }
+    #hook-text {
+        background: rgba(174, 174, 142, 0.6);
+        font-size: 9px;
     }
 
 }

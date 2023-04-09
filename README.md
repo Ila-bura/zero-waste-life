@@ -166,8 +166,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ## Lighthouse
 
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
-Logo: h3 used after h1
-In the Compost page: Link doesn't have a descriptive text (Learn how to compost here).
+Lighthouse flagged that the hyperlink in the Compost page did not have a descriptive text ("Learn how to compost here"). I researched the matter [here](https://developer.chrome.com/docs/lighthouse/seo/link-text/?utm_source=lighthouse&utm_medium=devtools) and solved by changing the hyperlink to a more descriptive text: "Learn how to compost".
 
 # Technologies Used
 ## Main Languages
