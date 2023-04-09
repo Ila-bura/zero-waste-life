@@ -159,7 +159,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * style.css CSS: [view](/assets/images/images-readme/W3C/W3C-CSS.png)
 
 ## Fixed Bugs
-
+Background video responsiveness for iPhone4. Researched the topic and found aviable solution [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
 
 
 ## Unfixed Bugs
