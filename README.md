@@ -12,77 +12,60 @@ Users will also have the chance to sign up to a monthly newsletter and receive u
 Zero Waste Life website is live and can be accessed [HERE](https://ila-bura.github.io/zero-waste-life/index.html)
 
 
-
 # Table of contents
-<ul>
-  <li>UX</li>
-    <ul>
-      <li>Site Purpose</li>
-      <li>Audience</li>
-      <li>Communication</li>
-    </ul>
-  </li>
-  <li>Design</li>
-  <ul>
-      <li>Color Scheme</li>
-      <li>Typography</li>
-      <li>Imagery</li>
-     </ul>
-     </li>
-  <li>Wireframes</li>
-  <li>Features</li>
-  <ul>
-      <li>Existing Features</li>
-      <ul>
-      <li>Logo</li>
-      <li>Navigation Bar</li>
-      <li>Landing Page</li>
-      <li>Recipe Page</li>
-      <li>Compost Page</li>
-      <li>Sign Up Page</li>
-      <li>Confirmation Page</li>
-      <li>Footer</li>
-    </ul>
-     </ul>
-  <ul>
-      <li>Features to implement</li>
-    </ul>
-     <li>Testing</li>
-     <ul>
-      <li>Media Queries</li>
-      <li>Validator Testing</li>
-      <li>Lighthouse Testing</li>
-       <li>Fixed Bugs</li>
-        <li>Unfixed Bugs</li>
-     </ul>
-     <li>Technologies Used</li>
-     <ul>
-      <li>Main Languages</li>
-      <li>Frameworks, Libraries & Programs</li>
-     </ul>
-     <li>Deployment</li>
-     <li>Credits</li>
-     <ul>
-      <li>Content</li>
-      <li>Media</li>
-     </ul>
-</ul>
-
+- [UX](#ux)
+  * [Site Purpose](#site-purpose)
+  * [Audience](#audience)
+  * [Communication](#communication)
+- [Design](#design)
+  * [Color Scheme](#typography)
+  * [Typography](#typography)
+  * [Imagery](#typography)
+- [Wireframes](#wireframes)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+    + [Logo](#logo)
+    + [Navigation Bar](#navigation-bar)
+        + [Landing Page](#landing-page)
+    + [Recipe Page](#recipe-page)
+    + [Compost Page](#compost-page)
+    + [Sign Up Page](#sign-up-page)
+    + [Confirmation Page](#confirmation-page)
+    + [Footer](#footer)
+  * [Features to implement](#features-to-implement)
+- [Testing](#testing)
+  * [Media Queries](#media-queries)
+  * [Validator Testing](#validator-testing)
+  * [Lighthouse Testing](#lighthouse-testing)
+  * [Fixed Bugs](#fixed-bugs)
+  * [Unfixed Bugs](#unfixed-bugs)
+- [Technologies Used](#technologies-used)
+  * [Main Languages](#main-languages)
+  * [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+ 
+  
 # UX
 
 ## Site Purpose
+
 Provide useful and practical and easy to implement tips to encourage users to reduce food waste, including simple recipes and an educational tutorial video.
 
 ## Audience
+
 Anyone who wish to leave the world as a better place and is willing to make an effort to reduce the amount of waste they produce in their daily activities. Our target audience spans from young professionals to stay-at-home parents, typically in the 20 to 45 age range. What they all have in common is they are passionate about sustainability, they carefully choose what to consume and they tend to prefer a vegetarian or vegan diet.  
 
 ## Communication
+
 In line with the site ethos, the content is displayed in little "nuggets" of information, meant to be easily read without overwhelming the users. The text bubbles in every page are intended as "calls to action" to engage the users.
 
 # Design
 
-
 ## Color Scheme
+
 The starting point to develop a color scheme was inspired to match the colors in the picture chosen to be the background image for the site. The overall intent was to convey a sense of relaxation, with muted tones and delicate hues. The Chrome extension ColorZilla was used to pick specific colors from the background image, one of which was then converted to RGBA format to match the same hue for the background of the sections with text. ColorZilla was also used to pick a specific shade of white from the background image to be used for the form fields as well as the submit button.
 ColorSpace was also used to generate matching gradient palette. 
 To create a contrasting effect, the logo, the main headings and the text content have a darker tone. In keeping with the intent of creating a pleasant and relaxing effect, the black color was avoided in favour of less extreme shades.
@@ -92,6 +75,7 @@ To create a contrasting effect, the logo, the main headings and the text content
 
 
 ## Typography
+
 Cormorant Garamond was selected as the font family for the headings, primarily in bold, to achieve a stylized and sleek final effect. On the other hand, Source Code Pro was chosen for the body content: its unpretentious line vaguely remind of the text produced by a typing machine, which make the font esthetically pleasing yet keeping it easy to read. The font family was created using Google Fonts.
 
 ## Imagery
@@ -105,7 +89,9 @@ The placeholder picture is a screenshot of the video then converted to webp form
 
 Finding a free stock photo of precisely a platter of carrot fritters proved harder than anticipated, therefore the picture displayed in the recipe page is actually a platter of zucchini fritters, which was deemed representative enough image to match the recipe.
 
+
 # Wireframes
+
 The wireframes were created using Balsamiq:
 * Mobile Wireframe: [view](/assets/wireframes/mobile-wireframe.png)
 * Tablet Wireframe: [view](/assets/wireframes/tablet-wireframe.png)
