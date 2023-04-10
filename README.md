@@ -6,7 +6,10 @@ The site will showcase a very simple and easy recipe to demonstrate how to use u
 In a separate page of the site users will be able to watch a YouTube video with simple instructions on how to start composting, in the hope to encourage users to experiment with compostinmg in their house.
 Users will also have the chance to sign up to a monthly newsletter and receive useful suggestions on how to reduce waste as well as a new seasonal recipe.
 
-Zero Waste Life website is live and can be accessed by clicking [HERE](https://www.google.com)
+
+![Screenshot of homepage displayed on different devices](/assets/images/images-readme/amiresponsive.png)
+
+Zero Waste Life website is live and can be accessed by clicking [HERE](https://ila-bura.github.io/zero-waste-life/index.html)
 
 
 
@@ -65,7 +68,7 @@ The logo can be seen on the upper left corner of every page of the website. Lack
 ![Screenshot of the website logo](/assets/images/images-readme/logo.png)
 
 ### Navigation Bar
-The navigation bar is displayed across all pages and provides an intuitive reference to navigate between the different sections of the website. The names of the four elements in the menu clearly state the content of each page.
+The navigation bar is displayed across all pages and provides an intuitive reference to navigate between the different sections of the website. The names of the four elements in the menu clearly state the content of each page. The links are arranged in order of information priority from left to right, beginning with the home page link, followed by Recipe, Compost and Sign Up. 
 
 
 ![Screenshot of the navigation bar](/assets/images/images-readme/navigation-bar.png)
@@ -140,13 +143,37 @@ Create dedicated pages with tips and tricks to implement in other areas of life,
 
 # Testing
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
-The following issues were raised during my mid project meeting with my mentor: 
 
-* Absolute vs. relative path: the following error was displayed in the DevTools:
+<p>The following issues were raised during my mid project meeting with my mentor: 
+
+<li>Absolute vs. relative path: the following error was displayed in the DevTools:
+
+
  ![Screenshot of the 404 message](/assets/images/images-readme/placeholder-error.png)
 
-Solved by fixing the file path to "../images/placeholder.webp".
-* My mentor suggested to have consistency in the use of either underscore or dash as a naming convention for classes and ids in my code. Solved by choosing to use a dash to separate words in names.
+Solved by fixing the file path to "../images/placeholder.webp".</li>
+<li>My mentor recommended consistency in the use of either underscore or dash as a naming convention for classes and ids in my code. This was implemented by choosing to use a dash to separate words in names.</li>
+</p>
+
+## Media Queries
+The most challenging part of the project was creating the media queries to ensure responsiveness on different devices. 
+
+<ul>
+<li>The first issue I needed to tackle was the less than optimal readability of some of the content, when viewed on smaller screens, mainly due to the design of the background hero video. I solved this by adding a contrasting background color to the navigation bar as well as the hook bubble. In keeping with the color palette created for the project, I applied the same RGBA color value used for the body, to ensure an improved readability against the background.
+</li>
+
+![Screenshot of the menu and hook text with colored background](/assets/images/images-readme/hook-menu-small-screens.png)
+
+<li>Next, I had to reposition the image in the Recipe page: as it is normally displayed between two columns hosting the ingredients and the method, it was decided to add the float:left property to have the image displayed below the two columns of text. Furthermore, the original fritters image has a size of 300 X 300px and proved to be too chunky, therefore it was resized to approximately 50% of its original size (153 X 150) to fit smaller screens. As a side note, the resized picture only features a single fritters rather than the whole platter, in an attempt to preserve the quality of the resized image.
+</li>
+</ul>
+
+![Carrot fritters original image](/assets/images/carrot-fritters.webp)
+
+![Carrot fritters resized image](/assets/images/single-fritters-resized.webp)
+
+
+
 
 ## Validator Testing
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. No errors were found in any of the files.
@@ -159,7 +186,17 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * style.css CSS: [view](/assets/images/images-readme/W3C/W3C-CSS.png)
 
 ## Fixed Bugs
-Background video responsiveness for iPhone4. Researched the topic and found aviable solution [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
+
+
+* The menu items were originally displayed in reverse order: Sign Up was aligned to the left and Home to the right. This was because of the float: right floated the menu items in order of their appearance in the code. In the Love Running walkthrough project the same issue was solved by reordering the menu items in the code to suit the float property. However, there is anoter option to fix the issue, by using CSS. I researched the matter and found a viable solution by adding float:right to the ul and float:left to the li.
+Source for this piece of code can be found on [Stack Overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order=)
+
+
+* Soon after adding the footer section, I noticed that the footer did not stick to the bottom of the page and it changed its position depending on how much content was displayed on the page. I researched the issue and tackled it by creating a page container to wrap all of the content: its minimum height was set to 100% of the viewport height and I added a relative property to it. Then I added a div to wrap all of the page content except for the footer. Using CSS, I set the footer position to absolute. Finally, I gave the content wrap a bottom padding with the same height of the footer.
+Source for this piece of code can be found [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
+
+
+* Hero background video responsiveness for iPhone4. I researched the topic and found a viable solution to resize the hero background to be responsive when displayed on smaller screens [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
 
 
 ## Unfixed Bugs
@@ -175,27 +212,29 @@ CSS3
 
 ## Frameworks, Libraries & Programs
 
-[Balsamiq](https://balsamiq.com/): used to create wireframes.
-GitPod: for version control before pushing the project to Github.
-GitHub: to save and store the files for submission.
-[Google Fonts]( https://fonts.google.com/): for the font families: Source Code Pro, Cormorant Garamond. San-serif was used as a default font.
-Font Awesome: to add icons to the Tips & Tricks list as well as the social media links in the footer element.
-Google Dev Tools: to troubleshoot and test features, solve issues with responsiveness and styling.
-[Adobe Express](https://www.adobe.com/express/feature/image/resize): to resize and compress images. 
-HandBrake: to encode the hero video.
-[birme.net](https://www.birme.net/?target_width=300&target_height=300&image_format=webp&quality_jpeg=100&quality_webp=100): to convert the placehodler picture to webp format.
-[favicon.io](https://favicon.io/): to generate the image for the icon in the tab bar.
-Am I Responsive? - to ensure the project looked good across all devices.
+* [Balsamiq](https://balsamiq.com/): used to create wireframes.
+* GitPod: for version control before pushing the project to Github.
+* GitHub: to save and store the files for submission.
+* [Google Fonts]( https://fonts.google.com/): for the font families: Source Code Pro, Cormorant Garamond. San-serif was used as a default font.
+* Font Awesome: to add icons to the Tips & Tricks list as well as the social media links in the footer element.
+* Google Dev Tools: to troubleshoot and test features, solve issues with responsiveness and styling.
+* [Adobe Express](https://www.adobe.com/express/feature/image/resize): to resize and compress images. 
+* HandBrake: to encode the hero video.
+* [birme.net](https://www.birme.net/?target_width=300&target_height=300&image_format=webp&quality_jpeg=100&quality_webp=100): to convert the placehodler picture to webp format.
+* [favicon.io](https://favicon.io/): to generate the image for the icon in the tab bar.
+* [Am I Responsive?](https://ui.dev/amiresponsive) - to ensure the project looked good across all devices.
 
 # Deployment
 
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-Log in (or sign up) to Github.
-Find the repository for this project, zero-waste-life.
-Click on the Settings link.
-Click on the Pages link in the left hand side navigation bar.
-In the first section displayed, the live Github Pages site is now deployed at the URL shown.
+<ol>
+<li>Log in (or sign up) to Github.</li>
+<li>Find the repository for this project, zero-waste-life.</li>
+<li>Click on the Settings link.</li>
+<li>Click on the Pages link in the left hand side navigation bar.</li>
+<li>In the first section displayed, the live Github Pages site is now deployed at the URL shown.</li>
+</ol>
 
 ![Screenshot of the deployed site on GitHub](/assets/images/images-readme/deployed-site-github.png)
 
@@ -204,7 +243,7 @@ In the first section displayed, the live Github Pages site is now deployed at th
 
 ## Content
 
-The initial set up and style of this project was inspired by the 'Love Running' walk-through project. In particular, a similar approach was taken for the design of the navigation bar, along with the display of the social links in the footer element.
+The initial set up for this project was inspired by the 'Love Running' walk-through project. In particular, a similar approach was taken for the design of the navigation bar, along with the display of the social links in the footer element.
 
 To learn how to embed a hero background video I researched the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/) and [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
 

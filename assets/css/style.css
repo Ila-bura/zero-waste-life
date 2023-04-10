@@ -161,7 +161,7 @@ a:hover {
     text-align: center;
     font-size: larger;
     line-height: 40px;
-    background: rgba(174, 174, 142, 0.7);
+    background: rgba(174, 174, 142, 0.6);
     margin: 0 auto;
     display: block;
     overflow: hidden;
@@ -211,6 +211,8 @@ a:hover {
 
 iframe {
     padding: 25px;
+    width: 560px;
+    height: 315px;
 }
 
 /* container */
@@ -425,9 +427,9 @@ p a:hover {
     }
 }
 
-/* For small screen sizes from 320px wide and down */
+/* For small screen sizes 320 X 480 */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) and (max-device-width: 480px) {
     #menu {
         clear: left;
         float: left;
@@ -450,7 +452,6 @@ p a:hover {
         font-size: 9px;
     }
 
-    
     #compost {
         width: 100%;
         padding: 10px 20px;
@@ -462,8 +463,6 @@ p a:hover {
     
     iframe {
         width: 80%;
-        height: 90%;
-        margin: 10px 10px 90px;
-        padding: 20px 20px;      
+        height: 90%;     
 }
 }
