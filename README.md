@@ -14,6 +14,59 @@ Zero Waste Life website is live and can be accessed [HERE](https://ila-bura.gith
 
 
 # Table of contents
+<ul>
+  <li>UX</li>
+    <ul>
+      <li>Site Purpose</li>
+      <li>Audience</li>
+      <li>Communication</li>
+    </ul>
+  </li>
+  <li>Design</li>
+  <ul>
+      <li>Color Scheme</li>
+      <li>Typography</li>
+      <li>Imagery</li>
+     </ul>
+     </li>
+  <li>Wireframes</li>
+  <li>Features</li>
+  <ul>
+      <li>Existing Features</li>
+      <ul>
+      <li>Logo</li>
+      <li>Navigation Bar</li>
+      <li>Landing Page</li>
+      <li>Recipe Page</li>
+      <li>Compost Page</li>
+      <li>Sign Up Page</li>
+      <li>Confirmation Page</li>
+      <li>Footer</li>
+    </ul>
+     </ul>
+  <ul>
+      <li>Features to implement</li>
+    </ul>
+     <li>Testing</li>
+     <ul>
+      <li>Media Queries</li>
+      <li>Validator Testing</li>
+      <li>Lighthouse Testing</li>
+       <li>Fixed Bugs</li>
+        <li>Unfixed Bugs</li>
+     </ul>
+     <li>Technologies Used</li>
+     <ul>
+      <li>Main Languages</li>
+      <li>Frameworks, Libraries & Programs</li>
+     </ul>
+     <li>Deployment</li>
+     <li>Credits</li>
+     <ul>
+      <li>Content</li>
+      <li>Media</li>
+     </ul>
+</ul>
 
 # UX
 
@@ -58,7 +111,7 @@ The wireframes were created using Balsamiq:
 * Tablet Wireframe: [view](/assets/wireframes/tablet-wireframe.png)
 * Desktop Wireframe: [view](/assets/wireframes/desktop-wireframe.png)
 
-# Current Features
+# Features
 
 ## Existing Features
 
