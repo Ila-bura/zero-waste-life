@@ -9,7 +9,7 @@ Users will also have the chance to sign up to a monthly newsletter and receive u
 
 ![Screenshot of homepage displayed on different devices](/assets/images/images-readme/amiresponsive.png)
 
-Zero Waste Life website is live and can be accessed by clicking [HERE](https://ila-bura.github.io/zero-waste-life/index.html)
+Zero Waste Life website is live and can be accessed [HERE](https://ila-bura.github.io/zero-waste-life/index.html)
 
 
 
@@ -173,8 +173,6 @@ The most challenging part of the project was creating the media queries to ensur
 ![Carrot fritters resized image](/assets/images/single-fritters-resized.webp)
 
 
-
-
 ## Validator Testing
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. No errors were found in any of the files.
 
@@ -184,6 +182,18 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * Sign Up Page HTML: [view](/assets/images/images-readme/W3C/W3C-signup.png)
 * Confirmation Page HTML: [view](/assets/images/images-readme/W3C/W3C-confirmation.png)
 * style.css CSS: [view](/assets/images/images-readme/W3C/W3C-CSS.png)
+
+
+## Lighthouse Testing
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+Lighthouse initially flagged that the hyperlink in the Compost page did not have a descriptive text ("Learn how to compost here"). I researched the matter [here](https://developer.chrome.com/docs/lighthouse/seo/link-text/?utm_source=lighthouse&utm_medium=devtools) and solved by changing the hyperlink to a more descriptive text: "Learn how to compost".
+
+Every single page of the website was then retested using Lighthouse with excellent accessibility scores:
+* Home Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-homepage-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-homepage-mobile.png)
+* Recipe Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-recipe-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-recipe-mobile.png)
+* Compost Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-compost-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-compost-mobile.png)
+* Sign Up Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-signup-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-signup-mobile.png)
+
 
 ## Fixed Bugs
 
@@ -200,15 +210,10 @@ Source for this piece of code can be found [here](https://www.freecodecamp.org/n
 
 
 ## Unfixed Bugs
-## Lighthouse
-
-I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
-Lighthouse flagged that the hyperlink in the Compost page did not have a descriptive text ("Learn how to compost here"). I researched the matter [here](https://developer.chrome.com/docs/lighthouse/seo/link-text/?utm_source=lighthouse&utm_medium=devtools) and solved by changing the hyperlink to a more descriptive text: "Learn how to compost".
-
 # Technologies Used
 ## Main Languages
-HTML5
-CSS3
+* HTML5
+* CSS3
 
 ## Frameworks, Libraries & Programs
 
@@ -243,9 +248,15 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 ## Content
 
-The initial set up for this project was inspired by the 'Love Running' walk-through project. In particular, a similar approach was taken for the design of the navigation bar, along with the display of the social links in the footer element.
+* The initial set up for this project was inspired by the 'Love Running' walk-through project. In particular, a similar approach was taken for the design of the navigation bar, along with the display of the social links in the footer element.
 
-To learn how to embed a hero background video I researched the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/) and [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
+* To learn how to embed a hero background video I researched the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/) and [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
+
+* The issue with the reversed order of floating menu to the right was solved by applying the code found on: [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) and [stack overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order)
+
+* The piece of code used to make the background video responsive can be found [here](https://discourse.webflow.com/t/background-video-responsive-size/81825)
+
+* To learn how to make the footer stick to the bottom, I applied the code suggested [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
 ## Media
 
