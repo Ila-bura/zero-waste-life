@@ -158,7 +158,7 @@ The wireframes for the project were created using Balsamiq:
 
 ### Recipe Page
 
-<p>The Recipe page is dedicated to one single recipe, specifically chosen to promote the fight against food waste. The list of ingredients and method content was adapted from an original recipe by [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).</p>
+The Recipe page is dedicated to one single recipe, specifically chosen to promote the fight against food waste. The list of ingredients and method content was adapted from an original recipe by the vegan food blogger [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).
 
 <p>The body of the recipe page is horizontally divided into three parts: the ingredients and method columns are separated by an image.</p>
 
@@ -178,46 +178,54 @@ The wireframes for the project were created using Balsamiq:
 
 <p>The Compost page is where users can watch a video about composting and learn more about it.</p>
 
-<p>The video was sourced from [YouTube](https://www.youtube.com/watch?v=egyNJ7xPyoQ) and embedded into the page.</p>
+The video was sourced from [YouTube](https://www.youtube.com/watch?v=egyNJ7xPyoQ) and embedded into the page.
 
 <p>The video does not autoplay and the YouTube controls were kept. The "loop" feature is on so that the water in the vase keeps moving</p>
 
 <p>The video is relatively short (around 3 minutes) but with clear and simple instructions on how to get started with composting at home.</p>
-In keeping with the essential ethos of the website, the video is not intended to provide an exhaustive guide to composting, rather to captivate the users in a fun and engaging way, based on the assumption that the vast majority of the Zero Waste Life's users are absolute beginners and have never tried composting before.
+In keeping with the essential ethos of the website, the video is not intended to provide an exhaustive guide to composting, rather to captivate the users in a fun and engaging way, based on the assumption that the vast majority of the Zero Waste Life's users are absolute beginners and have never tried composting before.</p>
 
 ### Sign Up Page
-In the Sign Up page users are presented with a form they are invited to fill in with their details, as well as the food they tend to waste the most. 
-The first name field is set to autofocus, to improve user's experience. 
-The form was created for educational purposes only and once the Submit button is clicked, users are simply directed to a confirmation page, where a thank you message is displayed. This was achieved by adding the path "Confirmation.html" to the form action.
+
+<p>In the Sign Up page users are presented with a form they are invited to fill in with their details, as well as the food they tend to waste the most. 
+The first name field is set to autofocus, to improve user's experience.</p>
+
+<p>The form was created for educational purposes only and once the Submit button is clicked, users are simply directed to a confirmation page, where a thank you message is displayed. This was achieved by adding the path "Confirmation.html" to the form action.</p>
 
 ![Screenshot of the sign up form](/assets/images/images-readme/signup-form.png)
 
-For consistency, also on this page another bubble message is displayed, once again inviting the users to take action: in this case they are encouraged to subscribe to the Zero Waste Life newsletter.
+<p>For consistency, also on this page another bubble message is displayed, once again inviting the users to take action: in this case they are encouraged to subscribe to the Zero Waste Life newsletter.</p>
 
 ![Screenshot of the sign up bubble](/assets/images/images-readme/signup-bubble.png)
 
 ### Confirmation Page
-Users land on this page after submitting their details in the Sign Up page. The thank you message sets the expectations regarding the content and frequency of the newsletter: users can expect to receive a new recipe and more tips and tricks on a monthly basis.
-The last line informs the users that they will be soon redirected to the Homepage. 
+
+<p>Users land on this page after submitting their details in the Sign Up page. The thank you message sets the expectations regarding the content and frequency of the newsletter: users can expect to receive a new recipe and more tips and tricks on a monthly basis.</p>
+
+The last line informs the users that they will be soon redirected to the Home page. 
 To learn how to implement this feature, I researched the topic online and followed the instructions found on [HubSpot](https://blog.hubspot.com/website/html-redirect).
 
 ![Screenshot of the confirmation message](/assets/images/images-readme/confirmation-message.png)
 
-Once again, for consistency, another bubble message is displayed, this time congratulating the users on signing up to the newsletter.
+<p>Once again, for consistency, another bubble message is displayed, this time congratulating the users on signing up to the newsletter.</p>
 
 ![Screenshot of the confirmation bubble](/assets/images/images-readme/confirmation-bubble.png)
 
 ### Footer
-Links to the main social media platforms can be found at the bottom of each page. All the links are set to open in a separate tab.
-Below the social media row, a line was added with the project creator's name. By clicking on it, the hyperlink opens the corresponding GitHub account in a separate tab.
+
+<p>Links to the main social media platforms can be found at the bottom of each page. All the links are set to open in a separate tab.
+Below the social media row, a line was added with the project creator's name. By clicking on it, the hyperlink opens the corresponding GitHub account in a separate tab.</p>
 
 ![Screenshot of the footer](/assets/images/images-readme/footer.png)
 
 ## Features to implement
-Expand the Recipe section to include more recipes and a photo gallery.
-Create dedicated pages with tips and tricks to implement in other areas that are not related to food, such as clothing, packaging and household maintenance.
+
+* Expand the Recipe section to include more recipes and a photo gallery.
+
+* Create dedicated pages with tips and tricks to implement in other areas that are not related to food, such as clothing, packaging and household maintenance.
 
 # Testing
+
 Testing was carried out throughout the entire build. Chrome DevTools was used to pinpoint and troubleshoot any issues along the way.
 
 <p>The following issues were raised during the mid-project meeting with my mentor: 
@@ -232,6 +240,7 @@ Solved by fixing the file path to "../images/placeholder.webp".</li>
 </p>
 
 ## Media Queries
+
 The most challenging part of the project was creating the media queries to ensure responsiveness on different devices. 
 
 <ul>
@@ -280,9 +289,8 @@ Every single page of the website was then retested using Lighthouse with excelle
 
 * The menu items were originally displayed in reverse order: the Sign Up link was aligned to the left and the Home link to the right. This occurred because of the float: right property which floated the menu items in order of their appearance in the code. 
 In the Love Running walk-through project the same issue was solved by reordering the menu items in the code to suit the float property.
-I researched the matter and found a viable solution using CSS: I added float:right to the ul and float:left to the li.
-
-The source for this piece of code can be found on [Stack Overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order=)
+I researched the matter and found a viable solution using CSS: I added "float: right" to the ul and "float: left" to the li.
+The source for this piece of code can be found on [Stack Overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order=).
 
 
 * Soon after adding the footer section, I noticed that the footer did not stick to the bottom of the page and it changed its position depending on how much content was displayed on the page. I researched the issue and tackled it by creating a page container to wrap all of the content: its minimum height was set to 100% of the viewport height and I added a relative property to it. 
@@ -290,7 +298,13 @@ Then I added a div to wrap all of the page content except for the footer. Using 
 The source for this piece of code can be found [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
 
-* Hero background video responsiveness for iPhone4. I researched the topic and found a viable solution to resize the hero background to be responsive when displayed on smaller screens [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
+* Improved appearance of the hero background video for iPhone4. I researched the topic and found a viable solution to resize the hero background to be responsive when displayed on smaller screens [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
+
+## Peer Reviews 
+
+A peer review was requested using the Code Institute peer-code-review Slack channel. Carl Murray suggested the following improvements:
+* Increase the opacity of the green background, to ensure better readability. This was implemented by increasing it from 0.6 to 0.7 in all instances where the green background was used, including the media queries. 
+* Reduce the refresh time once the confirmation message is displayed. This was implemented by reducing it from 15 to 7 seconds.
 
 
 ## Unfixed Bugs

@@ -132,7 +132,7 @@ video#bgvideo {
     text-align: center;
     font-size: larger;
     line-height: 50px;
-    background: rgba(174, 174, 142, 0.6);
+    background: rgba(174, 174, 142, 0.7);
     margin: 0 auto;
     display: block;
 }
@@ -161,7 +161,7 @@ a:hover {
     text-align: center;
     font-size: larger;
     line-height: 40px;
-    background: rgba(174, 174, 142, 0.6);
+    background: rgba(174, 174, 142, 0.7);
     margin: 0 auto;
     display: block;
     overflow: hidden;
@@ -204,7 +204,7 @@ a:hover {
     text-align: center;
     font-size: larger;
     line-height: 50px;
-    background: rgba(174, 174, 142, 0.6);
+    background: rgba(174, 174, 142, 0.7);
     margin: 0 auto;
     display: block;
 }
@@ -306,7 +306,7 @@ p a:hover {
 @media screen and (max-width: 1200px) {
 
     #hook-text {
-        background: rgba(174, 174, 142, 0.6);
+        background: rgba(174, 174, 142, 0.7);
         font-size: smaller;
     }
 
@@ -333,7 +333,7 @@ p a:hover {
         line-height: 25px;
         padding: 0;
         list-style: none;
-        background: rgba(174, 174, 142, 0.6);
+        background: rgba(174, 174, 142, 0.7);
     }
 
     #menu li {
@@ -358,7 +358,7 @@ p a:hover {
     }
 
     #hook-text {
-        background: rgba(174, 174, 142, 0.6);
+        background: rgba(174, 174, 142, 0.7);
         font-size: 11px;
     }
 
@@ -435,7 +435,7 @@ p a:hover {
         float: left;
         padding: 0;
         list-style: none;
-        background: rgba(174, 174, 142, 0.6);
+        background: rgba(174, 174, 142, 0.7);
     }
 
     #menu li {
@@ -448,7 +448,7 @@ p a:hover {
         max-height: -webkit-fill-available;
     }
     #hook-text {
-        background: rgba(174, 174, 142, 0.6);
+        background: rgba(174, 174, 142, 0.7);
         font-size: 9px;
     }
 
@@ -457,7 +457,7 @@ p a:hover {
         padding: 10px 20px;
         text-align: center;
         font-size: 80%;
-        background: rgba(174, 174, 142, 0.6);
+        background: rgba(174, 174, 142, 0.7);
         margin: 0 auto; 
     }
     
