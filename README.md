@@ -1,13 +1,15 @@
 # ZERO WASTE LIFE
 
 
-<p>Zero Waste Life is a website which aims at supporting people who are looking to reduce the amount of waste they produce on a daily basis. The site is targeted toward anyone who aspire to be a bit more sustainable and is ready to make some changes in their everyday life, starting in the kitchen. Zero Waste Life will provide useful tips and tricks to have a more sustainable approach to how we buy, consume and store food.</p>
+<p>Zero Waste Life is a website which aims at supporting people who are looking to reduce the amount of waste they produce on a daily basis. The site is targeted to anyone who aspire to live a bit more sustainably and is ready to make some changes in their everyday life, starting in the kitchen.</p>
+
+<p>Zero Waste Life provides useful tips and tricks to have a more sustainable approach to how we buy, consume and store food.</p>
 
 
 <p>The website showcases a very simple and easy recipe to demonstrate how to use up carrots, an ingredient which more often than not tend to be forgotten in the cupboard and therefore ends up being thrown away.</p>
 
 
-<p>In a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting, in the hope to encourage users to experiment with composting in their house.</p>
+<p>In a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting. By following this simple beginner's guide, users are encouraged to start experimenting with composting in their house.</p>
 
 <p>Additionally, users will have the chance to sign up to a monthly newsletter and receive useful suggestions on how to reduce waste as well as a new seasonal recipe.</p>
 
@@ -44,6 +46,7 @@ The Zero Waste Life website is live and can be accessed [HERE](https://ila-bura.
   * [Validator Testing](#validator-testing)
   * [Lighthouse Testing](#lighthouse-testing)
   * [Fixed Bugs](#fixed-bugs)
+  * [Peer Review](#peer-review)
   * [Unfixed Bugs](#unfixed-bugs)
 - [Technologies Used](#technologies-used)
   * [Main Languages](#main-languages)
@@ -300,7 +303,7 @@ The source for this piece of code can be found [here](https://www.freecodecamp.o
 
 * Improved appearance of the hero background video for iPhone4. I researched the topic and found a viable solution to resize the hero background to be responsive when displayed on smaller screens [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
 
-## Peer Reviews 
+## Peer Review 
 
 A peer review was requested using the Code Institute peer-code-review Slack channel. Carl Murray suggested the following improvements:
 * Increase the opacity of the green background, to ensure better readability. This was implemented by increasing it from 0.6 to 0.7 in all instances where the green background was used, including the media queries. 
