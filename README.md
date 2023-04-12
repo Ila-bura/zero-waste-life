@@ -1,7 +1,7 @@
 # ZERO WASTE LIFE
 
 
-<p>Zero Waste Life is a website which aims at supporting people who are looking to reduce the amount of waste they produce on a daily basis. The site is targeted to anyone who aspire to live a bit more sustainably and is ready to make some changes in their everyday life, starting in the kitchen.</p>
+<p>Zero Waste Life is a website which aims at supporting people who are looking to reduce the amount of waste they produce on a daily basis. The site is targeted to anyone who aspires to live a bit more sustainably and is ready to make some changes in their everyday life, starting in the kitchen.</p>
 
 <p>Zero Waste Life provides useful tips and tricks to have a more sustainable approach to how we buy, consume and store food.</p>
 
@@ -11,7 +11,7 @@
 
 <p>In a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting. By following this intuitive beginner's guide, users are encouraged to start experimenting with composting in their house.</p>
 
-<p>Additionally, users will have the chance to sign up to a monthly newsletter and receive useful suggestions on how to reduce waste as well as a new seasonal recipe.</p>
+<p>Additionally, users will have the chance to sign up to a monthly newsletter and receive a new seasonal recipe as well as more useful suggestions on how to reduce waste.</p>
 
 
 ![Screenshot of homepage displayed on different devices](/assets/images/images-readme/amiresponsive.png)
@@ -65,7 +65,7 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 
 ## Audience
 
-<p>Anyone who wishes to leave the world a better place and is willing to make an effort to reduce the amount of waste they produce during their daily activities.</p>
+<p>Anyone who wishes to leave the world a better place and is willing to make an effort to reduce the amount of waste they produce in their daily activities.</p>
 
 <p>The website target audience spans from young professionals to stay-at-home parents, typically in the 20 to 45 age range. What they all have in common is they are passionate about sustainability, they are mindful about what they consume and tend to prefer a vegetarian or vegan diet.</p>  
 
@@ -92,7 +92,7 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 
 <p>Cormorant Garamond was chosen as the font family for the headings, primarily in bold, to achieve a stylized and sleek final effect.</p>
 
-<p>Source Code Pro was chosen for the body content: its unpretentious lines vaguely remind of the text produced by a typing machine and make the font aesthetically pleasing without compromising its readability. The font family was created using Google Fonts.</p>
+<p>Source Code Pro was chosen for the body content: its unpretentious lines vaguely remind of the text produced by a typing machine and make the font aesthetically pleasing without compromising readability. The font family was created using Google Fonts.</p>
 
 ## Imagery
 
