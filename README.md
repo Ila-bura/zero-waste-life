@@ -6,10 +6,10 @@
 <p>Zero Waste Life provides useful tips and tricks to have a more sustainable approach to how we buy, consume and store food.</p>
 
 
-<p>The website showcases a very simple and easy recipe to demonstrate how to use up carrots, an ingredient which more often than not tend to be forgotten in the cupboard and therefore ends up being thrown away.</p>
+<p>The website showcases a very simple and easy recipe to demonstrate how to use up carrots, an ingredient which more often than not tends to be forgotten in the cupboard and therefore ends up being thrown away.</p>
 
 
-<p>In a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting. By following this simple beginner's guide, users are encouraged to start experimenting with composting in their house.</p>
+<p>In a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting. By following this intuitive beginner's guide, users are encouraged to start experimenting with composting in their house.</p>
 
 <p>Additionally, users will have the chance to sign up to a monthly newsletter and receive useful suggestions on how to reduce waste as well as a new seasonal recipe.</p>
 
@@ -65,9 +65,9 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 
 ## Audience
 
-<p>Anyone who wish to leave the world as a better place and is willing to make an effort to reduce the amount of waste they produce during their daily activities.</p>
+<p>Anyone who wishes to leave the world a better place and is willing to make an effort to reduce the amount of waste they produce during their daily activities.</p>
 
-<p>The website target audience spans from young professionals to stay-at-home parents, typically in the 20 to 45 age range. What they all have in common is they are passionate about sustainability, they carefully choose what to consume and they tend to prefer a vegetarian or vegan diet.</p>  
+<p>The website target audience spans from young professionals to stay-at-home parents, typically in the 20 to 45 age range. What they all have in common is they are passionate about sustainability, they are mindful about what they consume and tend to prefer a vegetarian or vegan diet.</p>  
 
 ## Communication
 
@@ -77,7 +77,7 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 
 ## Color Scheme
 
-<p>The starting point to develop the color scheme was oriented by the intention to match the colors in the background image chosen for the website. The overall intent was to convey a sense of relaxation, with muted tones and delicate hues.</p>
+<p>The starting point to develop the color scheme was oriented by the intention to match the colors of the background hero video. The overall intent was to convey a sense of relaxation, with muted tones and delicate hues.</p>
 
 <p>The Chrome extension ColorZilla was used to pick specific colors from the background image, one of which was then converted to RGBA format to match the same hue used for the background of the sections with text. ColorZilla was also used to pick a specific shade of white from the background image to be used for the form fields as well as the submit button.</p>
 
@@ -92,13 +92,13 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 
 <p>Cormorant Garamond was chosen as the font family for the headings, primarily in bold, to achieve a stylized and sleek final effect.</p>
 
-<p>Source Code Pro was chosen for the body content: its unpretentious lines vaguely remind of the text produced by a typing machine, which make the font aesthetically pleasing yet keeping it easy to read. The font family was created using Google Fonts.</p>
+<p>Source Code Pro was chosen for the body content: its unpretentious lines vaguely remind of the text produced by a typing machine and make the font aesthetically pleasing without compromising its readability. The font family was created using Google Fonts.</p>
 
 ## Imagery
 
 <p>All the imagery on the site, including the hero background video were sourced from the free stock photo platform Pexel. More information can be found in the Credits section of this document.</p>
 
-<p>The choice behind the images and video was aimed at supporting the theme of the site. More specifically, the hero video was chosen to create a relaxing effect of water moving in a vase of flower. This was achieved by embedding a short clip as the hero background video. The video is set on loop, to maintain the same soothing effect while users navigate the website, without being too distracting.</p>
+<p>The choice behind the images and video is in keeping with the theme of the site. More specifically, the hero video was chosen to create a relaxing effect of water moving in a vase of flower. This was achieved by embedding a short clip as the hero background video. The video is set on loop, to maintain the same soothing effect while users navigate the website, without being too distracting.</p>
 
 <p>The video was encoded using HandBrake to optimize its size and quality when displayed on mobile devices.</p>
 
@@ -129,26 +129,26 @@ The wireframes for the project were created using Balsamiq:
 
 <p>The navigation bar is displayed across all pages and provides an intuitive reference to navigate between the different sections of the website.</p>
 
-<p>The names of the four elements in the menu clearly state the content of each page. The links are arranged in order of information priority from left to right, beginning with the home page link, followed by Recipe, Compost and Sign Up.</p>
+<p>The names of the four elements in the menu clearly state the content of each page. The links are arranged in order of information priority from left to right, beginning with the Home link, followed by Recipe, Compost and Sign Up.</p>
 
 
 ![Screenshot of the navigation bar](/assets/images/images-readme/navigation-bar.png)
 
-<p>To fix the issue of the inverted order of the menu items, after researching online, a viable solution was found on [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) by adding a float:left property to the li element, coupled with a float:right property applied to the ul element.</p>
+To fix the issue of the inverted order of the menu items, after researching online, a viable solution was found on [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) by adding a float: left property to the li element, coupled with a float: right property applied to the ul element.
 
-<p>Similar to how it was done in the Love Running walk-through project, the menu links were set to underline, to provide visual clues for the user as to what link they are about to click on when they hover over it with the cursor.</p>
+<p>Similar to how it was done in the Love Running walk-through project, the menu links were set to underline, to provide visual clues for the users as to what link they are about to click on when they hover over it.</p>
 
 ### Landing Page
 
 <p>The landing page welcomes the users with an unobtrusive and relaxing effect of water moving in a vase of flower, created by embedding a short clip as the hero background video. This is a recurring feature that is displayed in every single page of the website.</p>
 
-<p>Listed in the central part of the homepage we can find a selection of useful tips and tricks the users are encouraged to implement in their life. The main content was displayed directly on the landing page on purpose, so that user can easily and readily access it.</p>
+<p>Listed in the central part of the homepage we can find a selection of useful tips and tricks the users are encouraged to implement in their life. The main content was displayed directly on the landing page on purpose, so that users can easily and readily access it.</p>
 
 
 ![Screenshot of the landing page](/assets/images/images-readme/home-tricks.png)
 
 
-<p>On the right, below the menu, a nugget of information is displayed in a bubble which provides an interesting fact about how much fruit and vegetables is wasted every year.
+<p>On the right, below the menu, a nugget of information is displayed in a bubble, which provides an interesting fact about how much fruit and vegetables is wasted every year.
 </p> 
 
 
@@ -161,21 +161,21 @@ The wireframes for the project were created using Balsamiq:
 
 ### Recipe Page
 
-The Recipe page is dedicated to one single recipe, specifically chosen to promote the fight against food waste. The list of ingredients and method content was adapted from an original recipe by the vegan food blogger [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).
+The Recipe page is dedicated to one single recipe, specifically chosen to promote the fight against food waste. The content - the list of ingredients and method - was adapted from an original recipe by the vegan food blogger [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).
 
-<p>The body of the recipe page is horizontally divided into three parts: the ingredients and method columns are separated by an image.</p>
+<p>The body of the recipe page is horizontally divided into three parts: the ingredients and method columns are separated by the image of the finished dish.</p>
 
-<p>As a side note, finding a free stock photo of precisely a platter of carrot fritters proved harder than anticipated. For this reason, the picture chosen fo the recipe page is actually a picture of a platter of zucchini fritters, which was deemed representative enough to match the recipe.</p>
+<p>As a side note, finding a free stock photo of precisely a platter of carrot fritters proved harder than anticipated. For this reason, the picture chosen for the recipe page is actually a picture of a platter of zucchini fritters, which was deemed representative enough to match the recipe.</p>
 
 <p>The image is styled with a circular container, as learnt in the Love Running walk-through project.</p>
 
 ![Screenshot of the recipe page](/assets/images/images-readme/recipe-page.png)
 
-<p>On the right below the menu we can find another bubble with an engaging call to action, inviting users to try the recipe.</p>
+<p>On the right below the menu, we can find another bubble with an engaging call to action, inviting users to try the recipe.</p>
 
 ![Screenshot of the recipe bubble](/assets/images/images-readme/recipe-bubble.png)
 
-<p>In a future iteration, this section could be expanded to host more recipes.</p>
+<p>In a future iteration, this section will be expanded to host more recipes.</p>
 
 ### Compost Page
 
@@ -183,7 +183,7 @@ The Recipe page is dedicated to one single recipe, specifically chosen to promot
 
 The video was sourced from [YouTube](https://www.youtube.com/watch?v=egyNJ7xPyoQ) and embedded into the page.
 
-<p>The video does not autoplay and the YouTube controls were kept. The "loop" feature is on so that the water in the vase keeps moving</p>
+<p>The video does not autoplay and the YouTube controls were kept. The "loop" feature is on, so that the effect of water moving in the vase never ends.</p>
 
 <p>The video is relatively short (around 3 minutes) but with clear and simple instructions on how to get started with composting at home.</p>
 In keeping with the essential ethos of the website, the video is not intended to provide an exhaustive guide to composting, rather to captivate the users in a fun and engaging way, based on the assumption that the vast majority of the Zero Waste Life's users are absolute beginners and have never tried composting before.</p>
@@ -197,7 +197,7 @@ The first name field is set to autofocus, to improve user's experience.</p>
 
 ![Screenshot of the sign up form](/assets/images/images-readme/signup-form.png)
 
-<p>For consistency, also on this page another bubble message is displayed, once again inviting the users to take action: in this case they are encouraged to subscribe to the Zero Waste Life newsletter.</p>
+<p>For consistency, also on this page another bubble message is displayed, once again inviting the users to take action: in this case, they are encouraged to subscribe to the Zero Waste Life newsletter.</p>
 
 ![Screenshot of the sign up bubble](/assets/images/images-readme/signup-bubble.png)
 
@@ -206,7 +206,7 @@ The first name field is set to autofocus, to improve user's experience.</p>
 <p>Users land on this page after submitting their details in the Sign Up page. The thank you message sets the expectations regarding the content and frequency of the newsletter: users can expect to receive a new recipe and more tips and tricks on a monthly basis.</p>
 
 The last line informs the users that they will be soon redirected to the Home page. 
-To learn how to implement this feature, I researched the topic online and followed the instructions found on [HubSpot](https://blog.hubspot.com/website/html-redirect).
+To learn how to implement this feature, I researched the topic online and followed the instructions found on [HubSpot](https://blog.hubspot.com/website/html-redirect). The page is set to refresh after a few seconds to give users the chance to read the confirmation message.
 
 ![Screenshot of the confirmation message](/assets/images/images-readme/confirmation-message.png)
 
@@ -252,9 +252,9 @@ The most challenging part of the project was creating the media queries to ensur
 
 ![Screenshot of the menu and hook text with colored background](/assets/images/images-readme/hook-menu-small-screens.png)
 
-<li>Next, I had to reposition the image in the Recipe page: as it is normally displayed between two columns hosting the ingredients and the method, it was decided to add the float:left property to have the image displayed below the two columns. 
-Furthermore, the size of the original fritters image is 300 X 300px and proved to be too big for smaller screens, therefore it was resized to approximately 50% of its original size (that is 153 X 150px). 
-As a side note, it is worth noticing that the resized picture only features a single fritters rather than the whole platter. This was done intentionally in order to preserve the quality of the resized image.
+<li>Next, I had to reposition the image in the Recipe page: as it is normally displayed between two columns hosting the ingredients and the method, it was decided to add the float: left property to have the image displayed below the two columns. 
+Furthermore, the size of the original fritters image is 300x300 pixels and proved to be too big for smaller screens, therefore it was resized to approximately 50% of its original size (153x150 pixels). 
+As a side note, it is worth noticing that the resized picture only features a single fritter, rather than the whole platter. This was done intentionally in order to preserve the quality of the resized image.
 </li>
 </ul>
 
@@ -292,7 +292,7 @@ Every single page of the website was then retested using Lighthouse with excelle
 
 * The menu items were originally displayed in reverse order: the Sign Up link was aligned to the left and the Home link to the right. This occurred because of the float: right property which floated the menu items in order of their appearance in the code. 
 In the Love Running walk-through project the same issue was solved by reordering the menu items in the code to suit the float property.
-I researched the matter and found a viable solution using CSS: I added "float: right" to the ul and "float: left" to the li.
+I researched the matter and found a viable solution using CSS: I added float: right to the ul and float: left to the li.
 The source for this piece of code can be found on [Stack Overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order=).
 
 
@@ -359,9 +359,9 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 * To learn how to embed a hero background video I researched the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/) and [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
 
-* The issue with the reversed order of floating menu to the right was solved by applying the code found on: [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) and [stack overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order)
+* The issue with the reversed order of floating menu to the right was solved by applying the code found on: [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) and [stack overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order). 
 
-* The piece of code used to make the background video responsive can be found [here](https://discourse.webflow.com/t/background-video-responsive-size/81825)
+* The piece of code used to make the background video responsive can be found [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
 
 * To learn how to make the footer stick to the bottom, I applied the code suggested [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
