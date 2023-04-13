@@ -266,7 +266,7 @@ As a side note, it is worth noticing that the resized picture only features a si
 ## Validator Testing
 The W3C validator was used to validate the HTML code of all the pages of the website. It was also used to validate the CSS code in the style.css file. No errors were found in any of the files.
 
-* Index Page HTML: [view](/assets/images/images-readme/W3C/W3C-index.png)
+* Index Page HTML: [view](../zero-waste-life/assets/images/images-readme/W3C/W3C-index.png)
 * Recipe Page HTML: [view](/assets/images/images-readme/W3C/W3C-recipe.png)
 * Compost Page HTML: [view](/assets/images/images-readme/W3C/W3C-compost.png)
 * Sign Up Page HTML: [view](/assets/images/images-readme/W3C/W3C-signup.png)
@@ -301,7 +301,7 @@ Then I added a div to wrap all of the page content except for the footer. Using 
 The source for this piece of code can be found [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
 
-* Improved appearance of the hero background video for iPhone4. I researched the topic and found a viable solution to resize the hero background to be responsive when displayed on smaller screens [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
+* To improve the appearance of the sign up form fields and have them aligned, I researched the topic on [Stack Overflow](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) and found a viable solution by creating a table.
 
 ## Peer Review 
 
@@ -359,9 +359,9 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 * To learn how to embed a hero background video I researched the topic and followed the instructions found on [ToolTester](https://www.tooltester.com/en/blog/how-to-embed-a-hero-background-video/) and [here](https://www.htmlandcssbook.com/extras/encoding-videos-for-the-web).
 
-* The issue with the reversed order of floating menu to the right was solved by applying the code found on: [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) and [stack overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order). 
+* The issue with the reversed order of floating menu to the right was solved by applying the code found on: [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) and [Stack Overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order). 
 
-* The piece of code used to make the background video responsive can be found [here](https://discourse.webflow.com/t/background-video-responsive-size/81825).
+* The piece of code used to align the form fields was borrowed from [Stack Overflow](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html).
 
 * To learn how to make the footer stick to the bottom, I applied the code suggested [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
