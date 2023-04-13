@@ -11,7 +11,7 @@
 
 <p>On a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting. By following this intuitive beginner's guide, users are encouraged to start experimenting with composting in their gardens.</p>
 
-<p>Additionally, users will have the option to sign up for a monthly newsletter to receive seasonal recipes and even more handy waste reduction tips.</p>
+<p>Additionally, users will have the option to subscribe to a monthly newsletter to receive seasonal recipes and even more handy waste reduction tips.</p>
 
 
 ![Screenshot of homepage displayed on different devices](assets/images/images-readme/amiresponsive.png)
@@ -54,7 +54,7 @@ The Zero Waste Life website is live and can be accessed [HERE](https://ila-bura.
 - [Deployment](#deployment)
 - [Credits](#credits)
   * [Content](#content)
-  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
  
   
 # UX
@@ -299,14 +299,16 @@ Then I added a div to wrap all of the page content except for the footer. Using 
 The source for this piece of code can be found [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
 
-* To improve the appearance of the sign up form fields and display them aligned, I researched the topic on [Stack Overflow](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) and found a viable solution by creating a table.
-
-## Peer Review 
+## Peer Reviews 
 
 A peer review was requested using the Code Institute peer-code-review Slack channel. Carl Murray suggested the following improvements:
 
 * Increase the opacity of the green background, to ensure better readability. This was implemented by increasing it from 0.6 to 0.7 in all instances where the green background was used, including the media queries. 
 * Reduce the refresh time once the confirmation message is displayed. This was implemented by reducing it from 15 to 7 seconds.
+
+Vlad Alykov suggested the following improvement:
+
+* Align the sign up form fields. I researched the topic on [Stack Overflow](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) and found a viable solution by creating a table.
 
 
 ## Unfixed Bugs
@@ -372,3 +374,11 @@ The video with the vase of flowers used as a hero background was downloaded from
 The placeholder picture is a screenshot of the video then converted to webp format.
 
 The picture of the fritters used in the recipe page was downloaded from Pexels and the author is [Morena Vw](https://www.pexels.com/photo/zucchini-fritters-with-tomatoes-and-green-vegetables-on-white-ceramic-plate-6911885/).  
+
+## Acknowledgments
+
+I would like to acknowledge and thank the following people who supported and helped me in completing this project:
+
+* [Martina Terlevic](https://github.com/SephTheOverwitch), my Code Institute Mentor.
+* [Carl Murray](https://github.com/CarlMurray) - For taking the time to respond to my peer code review request in Slack.
+* [Vlad Alykov](https://www.linkedin.com/in/vladsec/) - for reviewing the README file.
