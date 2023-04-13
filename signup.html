@@ -53,24 +53,28 @@
                 <h2>Sign up</h2>
                 <hr>
                 <form action="confirmation.html">
-                    <div>
-                        <label for="firstName">First name:</label>
-                        <input class="input-form" type="text" id="firstName" name="firstName" required placeholder=""
-                            autofocus>
-                    </div>
-                    <div>
-                        <label for="lastName">Last name:</label>
-                        <input class="input-form" type="text" id="lastName" name="lastName" required placeholder="">
-                    </div>
-                    <div>
-                        <label for="email">Email address:</label>
-                        <input class="input-form" type="email" id="email" name="email" required placeholder="">
-                    </div>
-                    <div>
-                        <label for="waste-survey">Which food do you waste the most?</label>
-                        <input class="input-form" type="text" id="waste-survey" name="waste-survey" required
-                            placeholder="">
-                    </div>
+                    <table>
+                        <tr>
+                            <td>First Name:</td>
+                            <td><input class="input-form" type="text" id="firstName" name="firstName" required
+                                    placeholder="" autofocus></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name:</td>
+                            <td><input class="input-form" type="text" id="lastName" name="lastName" required
+                                    placeholder=""></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input class="input-form" type="email" id="email" name="email" required
+                                    placeholder=""></td>
+                        </tr>
+                        <tr>
+                            <td>Most wasted food?</td>
+                            <td><input class="input-form" type="text" id="waste-survey" name="waste-survey" required
+                                    placeholder=""></td>
+                        </tr>
+                    </table>
                     <div>
                         <input class="submit-button" type="submit" value="Submit">
                     </div>

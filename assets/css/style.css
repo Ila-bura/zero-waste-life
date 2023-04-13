@@ -276,6 +276,15 @@ p a:hover {
     background-color: #F0EDE7;
 }
 
+table {
+    display: inline;
+}
+
+td {
+    text-align: right;
+    padding-right: 10px;
+}
+
 .submit-button {
     background-color: #D0CEBC;
     color: #3a3a3a;
@@ -285,6 +294,7 @@ p a:hover {
     border-style: solid;
     border-radius: 10px;
     font-family: 'Source Code Pro', sans-serif;
+    margin-top: 20px;
 }
 
 .submit-button:hover {
@@ -429,7 +439,7 @@ p a:hover {
 
 /* For small screen sizes 320 X 480 */
 
-@media screen and (max-width: 320px) and (max-device-width: 480px) {
+@media screen and (max-width: 320px) and (max-width: 480px) {
     #menu {
         clear: left;
         float: left;
@@ -442,10 +452,6 @@ p a:hover {
         font-size: 11px;
         display: contents;
         padding: 5px 5px;
-    }
-
-    video#bgvideo {
-        max-height: -webkit-fill-available;
     }
 
     #hook-text {
@@ -465,5 +471,9 @@ p a:hover {
     iframe {
         width: 80%;
         height: 90%;
+    }
+
+    table {
+        font-size: 10px;
     }
 }
