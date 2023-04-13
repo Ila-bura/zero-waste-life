@@ -266,8 +266,8 @@ As a side note, it is worth noticing that the resized picture only features a si
 ## Validator Testing
 The W3C validator was used to validate the HTML code of all the pages of the website. It was also used to validate the CSS code in the style.css file. No errors were found in any of the files.
 
-* Index Page HTML: [view](../zero-waste-life/assets/images/images-readme/W3C/W3C-index.png)
-* Recipe Page HTML: [view](/assets/images/images-readme/W3C/W3C-recipe.png)
+* Index Page HTML: [view](assets/images/images-readme/W3C/W3C-index.png)
+* Recipe Page HTML: [view](assets/images/images-readme/W3C/W3C-recipe.png)
 * Compost Page HTML: [view](/assets/images/images-readme/W3C/W3C-compost.png)
 * Sign Up Page HTML: [view](/assets/images/images-readme/W3C/W3C-signup.png)
 * Confirmation Page HTML: [view](/assets/images/images-readme/W3C/W3C-confirmation.png)
