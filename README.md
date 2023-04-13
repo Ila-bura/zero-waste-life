@@ -14,7 +14,7 @@
 <p>Additionally, users will have the chance to sign up to a monthly newsletter and receive a new seasonal recipe as well as more useful suggestions on how to reduce waste.</p>
 
 
-![Screenshot of homepage displayed on different devices](/assets/images/images-readme/amiresponsive.png)
+![Screenshot of homepage displayed on different devices](assets/images/images-readme/amiresponsive.png)
 
 The Zero Waste Life website is live and can be accessed [HERE](https://ila-bura.github.io/zero-waste-life/index.html)
 
@@ -85,7 +85,7 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 
 <p>To create a contrasting effect with the background, the logo, the main headings and the text content have a darker tone. In keeping with the intent of creating a pleasant and relaxing effect, the black color was avoided in favour of a more nuanced shade.</p>
 
-![Screenshot of the gradient palette generated using ColorSpace.](/assets/images/images-readme/gradient-palette.png)
+![Screenshot of the gradient palette generated using ColorSpace.](assets/images/images-readme/gradient-palette.png)
 
 
 ## Typography
@@ -108,9 +108,9 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 # Wireframes
 
 The wireframes for the project were created using Balsamiq:
-* Mobile Wireframe: [view](/assets/wireframes/mobile-wireframe.png)
-* Tablet Wireframe: [view](/assets/wireframes/tablet-wireframe.png)
-* Desktop Wireframe: [view](/assets/wireframes/desktop-wireframe.png)
+* Mobile Wireframe: [view](assets/wireframes/mobile-wireframe.png)
+* Tablet Wireframe: [view](assets/wireframes/tablet-wireframe.png)
+* Desktop Wireframe: [view](assets/wireframes/desktop-wireframe.png)
 
 # Features
 
@@ -123,7 +123,7 @@ The wireframes for the project were created using Balsamiq:
 <p>Lacking the skills to design a proper logo from scratch, the logo simply consists of two superimposed headings in bold: the website name "Zero Waste Life" and the mission statement or ethos "Live more sustainably", separated by a horizontal rule and wrapped in a rectangular box with a solid border.</p>
 
 
-![Screenshot of the website logo](/assets/images/images-readme/logo.png)
+![Screenshot of the website logo](assets/images/images-readme/logo.png)
 
 ### Navigation Bar
 
@@ -132,7 +132,7 @@ The wireframes for the project were created using Balsamiq:
 <p>The names of the four elements in the menu clearly state the content of each page. The links are arranged in order of information priority from left to right, beginning with the Home link, followed by Recipe, Compost and Sign Up.</p>
 
 
-![Screenshot of the navigation bar](/assets/images/images-readme/navigation-bar.png)
+![Screenshot of the navigation bar](assets/images/images-readme/navigation-bar.png)
 
 To fix the issue of the inverted order of the menu items, after researching online, a viable solution was found on [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) by adding a float: left property to the li element, coupled with a float: right property applied to the ul element.
 
@@ -145,18 +145,18 @@ To fix the issue of the inverted order of the menu items, after researching onli
 <p>Listed in the central part of the homepage we can find a selection of useful tips and tricks the users are encouraged to implement in their life. The main content was displayed directly on the landing page on purpose, so that users can easily and readily access it.</p>
 
 
-![Screenshot of the landing page](/assets/images/images-readme/home-tricks.png)
+![Screenshot of the landing page](assets/images/images-readme/home-tricks.png)
 
 
 <p>On the right, below the menu, a nugget of information is displayed in a bubble, which provides an interesting fact about how much fruit and vegetables is wasted every year.
 </p> 
 
 
-![Screenshot of the home bubble](/assets/images/images-readme/home-bubble.png)
+![Screenshot of the home bubble](assets/images/images-readme/home-bubble.png)
 
 <p>The last item in the Tips & Tricks list provides a clickable link directing users to the Compost page within the website. The link changes color to a vibrant shade of green when users hover over it with their cursor:</p>
 
-![Screenshot of the compost link](/assets/images/images-readme/link-to-compost.png)
+![Screenshot of the compost link](assets/images/images-readme/link-to-compost.png)
 
 
 ### Recipe Page
@@ -169,11 +169,11 @@ The Recipe page is dedicated to one single recipe, specifically chosen to promot
 
 <p>The image is styled with a circular container, as learnt in the Love Running walk-through project.</p>
 
-![Screenshot of the recipe page](/assets/images/images-readme/recipe-page.png)
+![Screenshot of the recipe page](assets/images/images-readme/recipe-page.png)
 
 <p>On the right below the menu, we can find another bubble with an engaging call to action, inviting users to try the recipe.</p>
 
-![Screenshot of the recipe bubble](/assets/images/images-readme/recipe-bubble.png)
+![Screenshot of the recipe bubble](assets/images/images-readme/recipe-bubble.png)
 
 <p>In a future iteration, this section will be expanded to host more recipes.</p>
 
@@ -195,11 +195,11 @@ The first name field is set to autofocus, to improve user's experience.</p>
 
 <p>The form was created for educational purposes only and once the Submit button is clicked, users are simply directed to a confirmation page, where a thank you message is displayed. This was achieved by adding the path "Confirmation.html" to the form action.</p>
 
-![Screenshot of the sign up form](/assets/images/images-readme/signup-form.png)
+![Screenshot of the sign up form](assets/images/images-readme/signup-form.png)
 
 <p>For consistency, also on this page another bubble message is displayed, once again inviting the users to take action: in this case, they are encouraged to subscribe to the Zero Waste Life newsletter.</p>
 
-![Screenshot of the sign up bubble](/assets/images/images-readme/signup-bubble.png)
+![Screenshot of the sign up bubble](assets/images/images-readme/signup-bubble.png)
 
 ### Confirmation Page
 
@@ -208,18 +208,18 @@ The first name field is set to autofocus, to improve user's experience.</p>
 The last line informs the users that they will be soon redirected to the Home page. 
 To learn how to implement this feature, I researched the topic online and followed the instructions found on [HubSpot](https://blog.hubspot.com/website/html-redirect). The page is set to refresh after a few seconds to give users the chance to read the confirmation message.
 
-![Screenshot of the confirmation message](/assets/images/images-readme/confirmation-message.png)
+![Screenshot of the confirmation message](assets/images/images-readme/confirmation-message.png)
 
 <p>Once again, for consistency, another bubble message is displayed, this time congratulating the users on signing up to the newsletter.</p>
 
-![Screenshot of the confirmation bubble](/assets/images/images-readme/confirmation-bubble.png)
+![Screenshot of the confirmation bubble](assets/images/images-readme/confirmation-bubble.png)
 
 ### Footer
 
 <p>Links to the main social media platforms can be found at the bottom of each page. All the links are set to open in a separate tab.
 Below the social media row, a line was added with the project creator's name. By clicking on it, the hyperlink opens the corresponding GitHub account in a separate tab.</p>
 
-![Screenshot of the footer](/assets/images/images-readme/footer.png)
+![Screenshot of the footer](assets/images/images-readme/footer.png)
 
 ## Features to implement
 
@@ -236,7 +236,7 @@ Testing was carried out throughout the entire build. Chrome DevTools was used to
 <li>Absolute vs. relative path: the following error was displayed in Chrome DevTools:
 
 
- ![Screenshot of the 404 message](/assets/images/images-readme/placeholder-error.png)
+ ![Screenshot of the 404 message](assets/images/images-readme/placeholder-error.png)
 
 Solved by fixing the file path to "../images/placeholder.webp".</li>
 <li>My mentor recommended consistency in the use of either underscore or dash as a naming convention for classes and ids in my code. This was implemented by choosing to use a dash to separate words in names.</li>
@@ -250,7 +250,7 @@ The most challenging part of the project was creating the media queries to ensur
 <li>The first issue I needed to tackle was the less than optimal readability of some of the content, when viewed on smaller screens, mainly due to the design of the background hero video. I solved this by adding a contrasting background color to the navigation bar as well as the hook bubble. In keeping with the color palette created for the project, I applied the same RGBA color value used for the body, to ensure improved readability against the background.
 </li>
 
-![Screenshot of the menu and hook text with colored background](/assets/images/images-readme/hook-menu-small-screens.png)
+![Screenshot of the menu and hook text with colored background](assets/images/images-readme/hook-menu-small-screens.png)
 
 <li>Next, I had to reposition the image in the Recipe page: as it is normally displayed between two columns hosting the ingredients and the method, it was decided to add the float: left property to have the image displayed below the two columns. 
 Furthermore, the size of the original fritters image is 300x300 pixels and proved to be too big for smaller screens, therefore it was resized to approximately 50% of its original size (153x150 pixels). 
@@ -258,9 +258,9 @@ As a side note, it is worth noticing that the resized picture only features a si
 </li>
 </ul>
 
-![Carrot fritters original image](/assets/images/carrot-fritters.webp)
+![Carrot fritters original image](assets/images/carrot-fritters.webp)
 
-![Carrot fritters resized image](/assets/images/single-fritters-resized.webp)
+![Carrot fritters resized image](assets/images/single-fritters-resized.webp)
 
 
 ## Validator Testing
@@ -268,10 +268,10 @@ The W3C validator was used to validate the HTML code of all the pages of the web
 
 * Index Page HTML: [view](assets/images/images-readme/W3C/W3C-index.png)
 * Recipe Page HTML: [view](assets/images/images-readme/W3C/W3C-recipe.png)
-* Compost Page HTML: [view](/assets/images/images-readme/W3C/W3C-compost.png)
-* Sign Up Page HTML: [view](/assets/images/images-readme/W3C/W3C-signup.png)
-* Confirmation Page HTML: [view](/assets/images/images-readme/W3C/W3C-confirmation.png)
-* style.css CSS: [view](/assets/images/images-readme/W3C/W3C-CSS.png)
+* Compost Page HTML: [view](assets/images/images-readme/W3C/W3C-compost.png)
+* Sign Up Page HTML: [view](assets/images/images-readme/W3C/W3C-signup.png)
+* Confirmation Page HTML: [view](assets/images/images-readme/W3C/W3C-confirmation.png)
+* style.css CSS: [view](assets/images/images-readme/W3C/W3C-CSS.png)
 
 
 ## Lighthouse Testing
@@ -282,10 +282,10 @@ I researched the matter [here](https://developer.chrome.com/docs/lighthouse/seo/
 
 Every single page of the website was then retested using Lighthouse with excellent accessibility scores:
 
-* Home Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-homepage-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-homepage-mobile.png)
-* Recipe Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-recipe-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-recipe-mobile.png)
-* Compost Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-compost-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-compost-mobile.png)
-* Sign Up Page: [Desktop](/assets/images/images-readme/Lighthouse/lighthouse-signup-desktop.png) - [Mobile](/assets/images/images-readme/Lighthouse/lighthouse-signup-mobile.png)
+* Home Page: [Desktop](assets/images/images-readme/Lighthouse/lighthouse-homepage-desktop.png) - [Mobile](assets/images/images-readme/Lighthouse/lighthouse-homepage-mobile.png)
+* Recipe Page: [Desktop](assets/images/images-readme/Lighthouse/lighthouse-recipe-desktop.png) - [Mobile](assets/images/images-readme/Lighthouse/lighthouse-recipe-mobile.png)
+* Compost Page: [Desktop](assets/images/images-readme/Lighthouse/lighthouse-compost-desktop.png) - [Mobile](assets/images/images-readme/Lighthouse/lighthouse-compost-mobile.png)
+* Sign Up Page: [Desktop](assets/images/images-readme/Lighthouse/lighthouse-signup-desktop.png) - [Mobile](assets/images/images-readme/Lighthouse/lighthouse-signup-mobile.png)
 
 
 ## Fixed Bugs
@@ -348,7 +348,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 <li>In the first section displayed, the live Github Pages site is now deployed at the URL shown.</li>
 </ol>
 
-![Screenshot of the deployed site on GitHub](/assets/images/images-readme/deployed-site-github.png)
+![Screenshot of the deployed site on GitHub](assets/images/images-readme/deployed-site-github.png)
 
 # Credits
 
