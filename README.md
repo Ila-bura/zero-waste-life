@@ -1,17 +1,17 @@
 # ZERO WASTE LIFE
 
 
-<p>Zero Waste Life is a website which aims at supporting people who are looking to reduce the amount of waste they produce on a daily basis. The site is targeted to anyone who aspires to live a bit more sustainably and is ready to make some changes in their everyday life, starting in the kitchen.</p>
+<p>Zero Waste Life is a website that supports people in reducing the amount of waste they produce on a daily basis. The site is targeted towards anyone who aspires to live more sustainably and is ready to make some changes in their everyday life, starting in the kitchen.</p>
 
-<p>Zero Waste Life provides useful tips and tricks to have a more sustainable approach to how we buy, consume and store food.</p>
+<p>Zero Waste Life provides useful tips and tricks to a more sustainable approach to buying, consuming and storing food.</p>
 
 
 <p>The website showcases a very simple and easy recipe to demonstrate how to use up carrots, an ingredient which more often than not tends to be forgotten in the cupboard and therefore ends up being thrown away.</p>
 
 
-<p>In a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting. By following this intuitive beginner's guide, users are encouraged to start experimenting with composting in their house.</p>
+<p>On a dedicated page of the website, users will also be able to watch an embedded YouTube video with simple instructions on how to start composting. By following this intuitive beginner's guide, users are encouraged to start experimenting with composting in their gardens.</p>
 
-<p>Additionally, users will have the chance to sign up to a monthly newsletter and receive a new seasonal recipe as well as more useful suggestions on how to reduce waste.</p>
+<p>Additionally, users will have the option to sign up for a monthly newsletter to receive seasonal recipes and even more handy waste reduction tips.</p>
 
 
 ![Screenshot of homepage displayed on different devices](assets/images/images-readme/amiresponsive.png)
@@ -67,42 +67,41 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 
 <p>Anyone who wishes to leave the world a better place and is willing to make an effort to reduce the amount of waste they produce in their daily activities.</p>
 
-<p>The website target audience spans from young professionals to stay-at-home parents, typically in the 20 to 45 age range. What they all have in common is they are passionate about sustainability, they are mindful about what they consume and tend to prefer a vegetarian or vegan diet.</p>  
+<p>The website's target audience spans from young professionals to stay-at-home parents, typically in the 20 to 45 age range. What they all have in common is they are passionate about sustainability, mindful about what they consume and generally leaning towards a vegetarian or vegan diet.</p>  
 
 ## Communication
 
-<p>In line with the site ethos, the content is displayed in little "nuggets" of information, meant to be easily read without overwhelming the users. The text bubbles in every page are intended as "calls to action" to inform and engage the users.</p>
+<p>In line with the site ethos, the content is displayed in little "nuggets" of information, meant to be easily read without overwhelming the users. The text bubbles on every page are intended as "calls to action" to inform and engage the users.</p>
 
 # Design
 
 ## Color Scheme
 
-<p>The starting point to develop the color scheme was oriented by the intention to match the colors of the background hero video. The overall intent was to convey a sense of relaxation, with muted tones and delicate hues.</p>
+<p>The starting point for the color scheme was inspired by matching the colors in the background hero video. The overall intent of the scheme is to convey a sense of relaxation, utilizing muted tones and delicate hues.</p>
+. The overall intent was to convey a sense of relaxation, with muted tones and delicate hues.</p>
 
-<p>The Chrome extension ColorZilla was used to pick specific colors from the background image, one of which was then converted to RGBA format to match the same hue used for the background of the sections with text. ColorZilla was also used to pick a specific shade of white from the background image to be used for the form fields as well as the submit button.</p>
+<p>The Chrome extension ColorZilla was used to pick specific colors from the background image. One of said colors was then converted to RGBA format to match the hue used for the background in the text-containing sections. ColorZilla was also used to pick a specific shade of white from the background image. This color was used for the form fields as well as the submit button.</p>
 
-<p>ColorSpace was used to generate a matching gradient palette.</p> 
-
-<p>To create a contrasting effect with the background, the logo, the main headings and the text content have a darker tone. In keeping with the intent of creating a pleasant and relaxing effect, the black color was avoided in favour of a more nuanced shade.</p>
+<p>ColorSpace was used to generate a matching gradient palette. The logo, main headings and text content, all utilize a darker tone – to achieve a contrasting effect against the background. In keeping with the intent of creating a pleasant and relaxing feel, pure black was avoided in favour of a more nuanced shade.</p>
 
 ![Screenshot of the gradient palette generated using ColorSpace.](assets/images/images-readme/gradient-palette.png)
 
 
 ## Typography
 
-<p>Cormorant Garamond was chosen as the font family for the headings, primarily in bold, to achieve a stylized and sleek final effect.</p>
+<p>Cormorant Garamond is the font family of choice for the headings, primarily in bold, aiming for a stylized and sleek final result.</p>
 
-<p>Source Code Pro was chosen for the body content: its unpretentious lines vaguely remind of the text produced by a typing machine and make the font aesthetically pleasing without compromising readability. The font family was created using Google Fonts.</p>
+<p>Source Code Pro is used for the body content: its unpretentious lines vaguely remind of the text produced by a typing machine and make the font aesthetically pleasing without compromising readability. The font family is created using Google Fonts.</p>
 
 ## Imagery
 
 <p>All the imagery on the site, including the hero background video were sourced from the free stock photo platform Pexel. More information can be found in the Credits section of this document.</p>
 
-<p>The choice behind the images and video is in keeping with the theme of the site. More specifically, the hero video was chosen to create a relaxing effect of water moving in a vase of flower. This was achieved by embedding a short clip as the hero background video. The video is set on loop, to maintain the same soothing effect while users navigate the website, without being too distracting.</p>
+<p>The choice behind the images and video is based in keeping with the theme of the site. More specifically, the hero video is picked to create a calming effect of water moving in a vase of flowers. This is achieved by embedding a short clip as the hero background video. The video is looped to maintain the same soothing effect while users navigate the website, without being too distracting.</p>
 
-<p>The video was encoded using HandBrake to optimize its size and quality when displayed on mobile devices.</p>
+<p>The video is encoded using HandBrake to optimize size and quality when displayed on mobile devices.</p>
 
-<p>The placeholder picture is a screenshot of the video then converted to webp format.</p>
+<p>The placeholder picture is a screenshot of the video, converted to webp format.</p>
 
 
 # Wireframes
@@ -118,37 +117,36 @@ The wireframes for the project were created using Balsamiq:
 
 ### Logo
 
-<p>The logo of the website is displayed on the upper left corner of every page.</p>
+<p>The website logo consists of two superimposed headings in bold: the website name "Zero Waste Life" and the mission statement or ethos "Live more sustainably", separated by a horizontal rule and wrapped in a rectangular box with a solid border.</p>
 
-<p>Lacking the skills to design a proper logo from scratch, the logo simply consists of two superimposed headings in bold: the website name "Zero Waste Life" and the mission statement or ethos "Live more sustainably", separated by a horizontal rule and wrapped in a rectangular box with a solid border.</p>
-
+<p>The logo is displayed in the upper left corner of every page.</p>
 
 ![Screenshot of the website logo](assets/images/images-readme/logo.png)
 
 ### Navigation Bar
 
-<p>The navigation bar is displayed across all pages and provides an intuitive reference to navigate between the different sections of the website.</p>
+<p>The navigation bar is displayed across all pages and provides an intuitive reference to navigate between the various sections of the website.</p>
 
-<p>The names of the four elements in the menu clearly state the content of each page. The links are arranged in order of information priority from left to right, beginning with the Home link, followed by Recipe, Compost and Sign Up.</p>
+<p>The respective names of the four menu elements clearly state the content of each page. The links are arranged in order of information priority from left to right, beginning with the Home link, followed by Recipe, Compost and Sign Up.</p>
 
 
 ![Screenshot of the navigation bar](assets/images/images-readme/navigation-bar.png)
 
-To fix the issue of the inverted order of the menu items, after researching online, a viable solution was found on [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) by adding a float: left property to the li element, coupled with a float: right property applied to the ul element.
+To fix the inverted menu items order issue, a viable solution was found on [codepen.io](https://codepen.io/ConStambo/pen/WxRQVq) - by adding a float: left property to the li element, coupled with a float: right property applied to the ul element.
 
 <p>Similar to how it was done in the Love Running walk-through project, the menu links were set to underline, to provide visual clues for the users as to what link they are about to click on when they hover over it.</p>
 
 ### Landing Page
 
-<p>The landing page welcomes the users with an unobtrusive and relaxing effect of water moving in a vase of flower, created by embedding a short clip as the hero background video. This is a recurring feature that is displayed in every single page of the website.</p>
+<p>The landing page welcomes the users with an unobtrusive and relaxing effect of water moving in a vase of flowers, created by embedding a short clip as the hero background video. This is a recurring feature that is displayed on every single page of the website.</p>
 
-<p>Listed in the central part of the homepage we can find a selection of useful tips and tricks the users are encouraged to implement in their life. The main content was displayed directly on the landing page on purpose, so that users can easily and readily access it.</p>
+<p>Listed in the central part of the homepage we find a selection of useful tips and tricks that users are encouraged to implement in their life. The main content is intentionally displayed directly on the landing page, enabling the users to effortlessly access it.</p>
 
 
 ![Screenshot of the landing page](assets/images/images-readme/home-tricks.png)
 
 
-<p>On the right, below the menu, a nugget of information is displayed in a bubble, which provides an interesting fact about how much fruit and vegetables is wasted every year.
+<p>On the right, below the menu, a nugget of information is displayed in a bubble, providing an interesting fact about how much fruit and vegetables is wasted every year.
 </p> 
 
 
@@ -161,17 +159,17 @@ To fix the issue of the inverted order of the menu items, after researching onli
 
 ### Recipe Page
 
-The Recipe page is dedicated to one single recipe, specifically chosen to promote the fight against food waste. The content - the list of ingredients and method - was adapted from an original recipe by the vegan food blogger [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).
+The Recipe page is dedicated to one single recipe, specifically hand-picked to promote the fight against food waste. The content - the list of ingredients and method - was adapted from an original recipe by the vegan food blogger [Max La Manna](https://www.maxlamanna.com/recipes/carrot-fritters).
 
 <p>The body of the recipe page is horizontally divided into three parts: the ingredients and method columns are separated by the image of the finished dish.</p>
 
-<p>As a side note, finding a free stock photo of precisely a platter of carrot fritters proved harder than anticipated. For this reason, the picture chosen for the recipe page is actually a picture of a platter of zucchini fritters, which was deemed representative enough to match the recipe.</p>
+<p>As a side note, finding a free stock photo of precisely a platter of carrot fritters proved harder than anticipated. For this reason, the picture chosen for the recipe page is actually one of zucchini fritters, which was deemed representative enough to match the recipe.</p>
 
 <p>The image is styled with a circular container, as learnt in the Love Running walk-through project.</p>
 
 ![Screenshot of the recipe page](assets/images/images-readme/recipe-page.png)
 
-<p>On the right below the menu, we can find another bubble with an engaging call to action, inviting users to try the recipe.</p>
+<p>On the right, below the menu, we find another bubble with an engaging call to action, inviting users to try the recipe.</p>
 
 ![Screenshot of the recipe bubble](assets/images/images-readme/recipe-bubble.png)
 
@@ -181,23 +179,23 @@ The Recipe page is dedicated to one single recipe, specifically chosen to promot
 
 <p>The Compost page is where users can watch a video about composting and learn more about it.</p>
 
-The video was sourced from [YouTube](https://www.youtube.com/watch?v=egyNJ7xPyoQ) and embedded into the page.
+The video is sourced from [YouTube](https://www.youtube.com/watch?v=egyNJ7xPyoQ) and embedded into the page.
 
-<p>The video does not autoplay and the YouTube controls were kept. The "loop" feature is on, so that the effect of water moving in the vase never ends.</p>
+<p>The video does not autoplay and the standard YouTube controls are kept. The "loop" feature is on, so that the effect of water moving in the vase never ends.</p>
 
 <p>The video is relatively short (around 3 minutes) but with clear and simple instructions on how to get started with composting at home.</p>
-In keeping with the essential ethos of the website, the video is not intended to provide an exhaustive guide to composting, rather to captivate the users in a fun and engaging way, based on the assumption that the vast majority of the Zero Waste Life's users are absolute beginners and have never tried composting before.</p>
+In keeping with the essential ethos of the website, the video is not intended to provide an exhaustive guide to composting, but rather to captivate the users in a fun and engaging way, based on the assumption that the vast majority of the Zero Waste Life's users are absolute beginners and have never tried composting before.</p>
 
 ### Sign Up Page
 
 <p>In the Sign Up page users are presented with a form they are invited to fill in with their details, as well as the food they tend to waste the most. 
 The first name field is set to autofocus, to improve user's experience.</p>
 
-<p>The form was created for educational purposes only and once the Submit button is clicked, users are simply directed to a confirmation page, where a thank you message is displayed. This was achieved by adding the path "Confirmation.html" to the form action.</p>
+<p>The form is created for educational purposes only and once the Submit button is clicked, users are directed to a confirmation page, where a thank you message is displayed. This was achieved by adding the path "Confirmation.html" to the form action.</p>
 
 ![Screenshot of the sign up form](assets/images/images-readme/signup-form.png)
 
-<p>For consistency, also on this page another bubble message is displayed, once again inviting the users to take action: in this case, they are encouraged to subscribe to the Zero Waste Life newsletter.</p>
+<p>For consistency, another bubble message is displayed on this page as well, once again inviting the users to take action: in this case, they are encouraged to subscribe to the Zero Waste Life newsletter.</p>
 
 ![Screenshot of the sign up bubble](assets/images/images-readme/signup-bubble.png)
 
@@ -210,13 +208,13 @@ To learn how to implement this feature, I researched the topic online and follow
 
 ![Screenshot of the confirmation message](assets/images/images-readme/confirmation-message.png)
 
-<p>Once again, for consistency, another bubble message is displayed, this time congratulating the users on signing up to the newsletter.</p>
+<p>Once again, for consistency, another bubble message is displayed, this time congratulating the users on subscribing to the newsletter.</p>
 
 ![Screenshot of the confirmation bubble](assets/images/images-readme/confirmation-bubble.png)
 
 ### Footer
 
-<p>Links to the main social media platforms can be found at the bottom of each page. All the links are set to open in a separate tab.
+<p>Links to the main social media platforms can be found at the bottom of each page. All the links are set to open in separate tabs.
 Below the social media row, a line was added with the project creator's name. By clicking on it, the hyperlink opens the corresponding GitHub account in a separate tab.</p>
 
 ![Screenshot of the footer](assets/images/images-readme/footer.png)
@@ -225,7 +223,7 @@ Below the social media row, a line was added with the project creator's name. By
 
 * Expand the Recipe section to include more recipes and a photo gallery.
 
-* Create dedicated pages with tips and tricks to implement in other areas that are not related to food, such as clothing, packaging and household maintenance.
+* Create dedicated pages with tips and tricks that can be applied in other areas such as clothing, packaging and household maintenance.
 
 # Testing
 
@@ -239,7 +237,7 @@ Testing was carried out throughout the entire build. Chrome DevTools was used to
  ![Screenshot of the 404 message](assets/images/images-readme/placeholder-error.png)
 
 Solved by fixing the file path to "../images/placeholder.webp".</li>
-<li>My mentor recommended consistency in the use of either underscore or dash as a naming convention for classes and ids in my code. This was implemented by choosing to use a dash to separate words in names.</li>
+<li>My mentor recommended consistency in using either underscore or dash as a naming convention for classes and ids in the code. This was implemented by choosing to use a dash to separate words in names.</li>
 </p>
 
 ## Media Queries
@@ -254,7 +252,7 @@ The most challenging part of the project was creating the media queries to ensur
 
 <li>Next, I had to reposition the image in the Recipe page: as it is normally displayed between two columns hosting the ingredients and the method, it was decided to add the float: left property to have the image displayed below the two columns. 
 Furthermore, the size of the original fritters image is 300x300 pixels and proved to be too big for smaller screens, therefore it was resized to approximately 50% of its original size (153x150 pixels). 
-As a side note, it is worth noticing that the resized picture only features a single fritter, rather than the whole platter. This was done intentionally in order to preserve the quality of the resized image.
+As a side note, it is worth pointing out that the resized picture only features a single fritter, rather than the whole platter. This was done intentionally to preserve the quality of the resized image.
 </li>
 </ul>
 
@@ -278,9 +276,9 @@ The W3C validator was used to validate the HTML code of all the pages of the web
 
 I used Lighthouse within the Chrome DevTools to test the performance, accessibility, best practices and SEO of the website.
 Lighthouse initially flagged that the hyperlink in the Compost page did not have a descriptive text ("Learn how to compost here"). 
-I researched the matter [here](https://developer.chrome.com/docs/lighthouse/seo/link-text/?utm_source=lighthouse&utm_medium=devtools) and solved by changing the hyperlink to a more descriptive text: "Learn how to compost".
+I researched the matter [here](https://developer.chrome.com/docs/lighthouse/seo/link-text/?utm_source=lighthouse&utm_medium=devtools) and resolved it by changing the hyperlink to a more descriptive text: "Learn how to compost".
 
-Every single page of the website was then retested using Lighthouse with excellent accessibility scores:
+Every single page of the website was then retested using Lighthouse, producing excellent accessibility scores:
 
 * Home Page: [Desktop](assets/images/images-readme/Lighthouse/lighthouse-homepage-desktop.png) - [Mobile](assets/images/images-readme/Lighthouse/lighthouse-homepage-mobile.png)
 * Recipe Page: [Desktop](assets/images/images-readme/Lighthouse/lighthouse-recipe-desktop.png) - [Mobile](assets/images/images-readme/Lighthouse/lighthouse-recipe-mobile.png)
@@ -296,16 +294,17 @@ I researched the matter and found a viable solution using CSS: I added float: ri
 The source for this piece of code can be found on [Stack Overflow](https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order=).
 
 
-* Soon after adding the footer section, I noticed that the footer did not stick to the bottom of the page and it changed its position depending on how much content was displayed on the page. I researched the issue and tackled it by creating a page container to wrap all of the content: its minimum height was set to 100% of the viewport height and I added a relative property to it. 
+* Soon after adding the footer section, I noticed that the footer did not stick to the bottom of the page and would change its position depending on how much content was displayed on the page. I researched the issue and tackled it by creating a page container to wrap all of the content: its minimum height was set to 100% of the viewport height and I added a relative property to it. 
 Then I added a div to wrap all of the page content except for the footer. Using CSS, I set the footer position to absolute. Finally, I gave the content wrap a bottom padding with the same height of the footer.
 The source for this piece of code can be found [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
 
-* To improve the appearance of the sign up form fields and have them aligned, I researched the topic on [Stack Overflow](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) and found a viable solution by creating a table.
+* To improve the appearance of the sign up form fields and display them aligned, I researched the topic on [Stack Overflow](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) and found a viable solution by creating a table.
 
 ## Peer Review 
 
 A peer review was requested using the Code Institute peer-code-review Slack channel. Carl Murray suggested the following improvements:
+
 * Increase the opacity of the green background, to ensure better readability. This was implemented by increasing it from 0.6 to 0.7 in all instances where the green background was used, including the media queries. 
 * Reduce the refresh time once the confirmation message is displayed. This was implemented by reducing it from 15 to 7 seconds.
 
@@ -324,7 +323,7 @@ A peer review was requested using the Code Institute peer-code-review Slack chan
 * [Balsamiq](https://balsamiq.com/): used to create wireframes.
 * GitPod: for version control before pushing the project to Github.
 * GitHub: to save and store the files for submission.
-* [Google Fonts](https://fonts.google.com/): for the font families Source Code Pro, Cormorant Garamond. San-serif was used as a default font.
+* [Google Fonts](https://fonts.google.com/): for the font families Source Code Pro, Cormorant Garamond. San-serif is used as a default font.
 * Font Awesome: to add icons to the Tips & Tricks list as well as the social media links in the footer.
 * [ColorSpace](https://mycolor.space/): to create the gradient palette.
 * ColorZilla: to pick specific colors from web pages.
@@ -365,7 +364,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 * To learn how to make the footer stick to the bottom, I applied the code suggested [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
 
-* The piece of code used to set the homepage to load after a certain amount of time was found on [HubSpot](https://blog.hubspot.com/website/html-redirect).
+* The piece of code used to set the homepage to load after a certain amount of time was sourced from [HubSpot](https://blog.hubspot.com/website/html-redirect).
 
 ## Media
 
