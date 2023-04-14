@@ -78,7 +78,6 @@ Provide useful, practical and easy to implement tips to encourage users to reduc
 ## Color Scheme
 
 <p>The starting point for the color scheme was inspired by matching the colors in the background hero video. The overall intent of the scheme is to convey a sense of relaxation, utilizing muted tones and delicate hues.</p>
-. The overall intent was to convey a sense of relaxation, with muted tones and delicate hues.</p>
 
 <p>The Chrome extension ColorZilla was used to pick specific colors from the background image. One of said colors was then converted to RGBA format to match the hue used for the background in the text-containing sections. ColorZilla was also used to pick a specific shade of white from the background image. This color was used for the form fields as well as the submit button.</p>
 
@@ -381,4 +380,4 @@ I would like to acknowledge and thank the following people who supported and hel
 
 * [Martina Terlevic](https://github.com/SephTheOverwitch), my Code Institute Mentor.
 * [Carl Murray](https://github.com/CarlMurray) - For taking the time to respond to my peer code review request in Slack.
-* [Vlad Alykov](https://www.linkedin.com/in/vladsec/) - for reviewing the README file.
+* [Vlad Alykov](https://github.com/Hornfisk) - for reviewing the README file.
